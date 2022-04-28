@@ -8,9 +8,9 @@
 
 <h3>🛰️ Deploy</h3>
 
-[Clique aqui para acessar o Projeto](https://heringcoders3-css.netlify.app/)🔗
+[Clique aqui para acessar o Projeto](https://hiringcoders3-css.netlify.app/)🔗
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/9510dc65-12ed-415d-b633-bda0333464d7/deploy-status)](https://app.netlify.com/sites/heringcoders3-css/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b86d2e0a-133a-4aaf-8533-96cedd82e8d5/deploy-status)](https://app.netlify.com/sites/hiringcoders3-css/deploys)
 
 <h3 id="conteudo">📚 Material de Apoio</h3>
 
