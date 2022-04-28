@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/ee4060f7ca.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <title>Bruno Seghese</title>
+</head>
+
+<body>
+  <header>
+    <div>
+      <img src="./assets/logosegh.png" alt="Logo Bruno Seghese">
+    </div>
+    <ul>
+      <li><a target="_blank" href="https://github.com/brseghese">github</a></li>
+      <li><a target="_blank" href="mailto:brseghese@gmail.com">email</a></li>
+      <li><a target="_blank" href="https://wa.me/5517996150205">whatsapp</a></li>
+    </ul>
+  </header>
+  <main>
+    <section class="container">
+      <div class="name">
+        <h1>Bruno Seghese</h1>
+        <h5>Web Developer</h5>
+      </div>
+      <div onclick="displayAbout()" id="arrow">
+        <i id="animation" class="fa-solid fa-caret-down"></i>
+      </div>
+      <div style="display: none;" id="about">
+        <p>Olá! Meu nome é Bruno, sou desenvolvedor web e atuo tanto no frontend como no backend. Minhas stacks são Javascript, HTML e CSS. Todos os projetos são desenvolvidos com os melhores padrões de códigos.</p>
+      </div>
+      <div class="form">
+        <div>
+          <p>Deixe seu contato!</p>
+        </div>
+        <form action="">
+          <input type="text" placeholder="seu melhor email :)">
+          <button>enviar!</button>
+        </form>
+      </div>
+      <h2>Projetos</h2>
+      <div class="projetos">
+        <div>
+          <img src="./assets/projeto_1.jpg" alt="projeto bikcraft">
+          <p>O projeto Bikcraft foi desenvolvido por completo no curso da Origamid, iniciado desde a prototipagem, a codificação do HTML, a estilização no CSS e as animações em JavaScript.</p>
+        </div>
+        <div>
+          <img src="./assets/projeto_2.jpg" alt="projeto jogo da memoria">
+          <p>O projeto Memory Game foi desenvolvido no curso do Programdor Br. Implementei várias funcionalidades: áudio nas interações, tempo de jogo, recorde e responsividade.</p>
+        </div>
+        <div>
+          <img src="./assets/projeto_3.jpg" alt="projeto jogo da cobrinha">
+          <p>O projeto Snake Game foi desenvolvido por tutoriais no youtube, com destaque ao canal Franks Laboratory. Adquiri habilidades no elemento HTML canvas e reforcei o aprendizado de POO.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script>
+    function displayAbout() {
+      let arrow = document.getElementById('animation')
+      arrow.classList.toggle('rotate')
+      let display = document.getElementById('about')
+      display.classList.toggle('active')
+    }
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+#cabecalho {
+  text-align: center;
+}
+
+#navbar {
+  display: flex;
+  gap: 20px;
+  padding-bottom: 20px;
+}
+
+#imagemPrincipal {
+  text-align: center;
+}
+
+#destaque {
+  text-align: center;
+}
+
+#produtos {
+  text-align: center;
+  display: flex;
+  padding-bottom: 20px;
+}
+
+#rodape {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+#contato {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+#formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+img {
+  max-width: 100%;
+}

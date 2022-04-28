@@ -16,13 +16,23 @@ Repositório com conteúdos do programa **Hiring** **Coders** **3** da **VTEX**.
 
 <h3 id="cronograma">📆 Cronograma</h3>
 
-- **Fase 01** - 26/04/2022 a 01/05/2022
+**Fase 01**
 
+<ul>
+<li>26/04/2022 a 01/05/2022 - Aquecimento</li>
+  <ul>
+    <li>Boas Práticas | Estrutura de Dados</li>
+    <li>HTML | CSS</li>
+    <li>Soft Skills</li>
+  </ul>
+<li>02/05/2022 a 08/05/2002  -  Semana 01</li>
+</ul>
 <h3 id="modulos">📍 Módulos</h3>
 
 ✅ Aquecimento
 
-1.  [HTML](./01_html/README.md) <br>
+1. [HTML](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/01_html)
+2. [CSS](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/02_css)
 
 <h3 id="tecnologias">⚙️ Tecnologias Utilizadas</h3>
 
