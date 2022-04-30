@@ -31,7 +31,8 @@ Repositório com conteúdos do programa **Hiring** **Coders** **3** da **VTEX**.
 
 ✅ Aquecimento
 
-[Boas Práticas](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/boas_praticas) e [Estrutura de Dados](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/estrutura_de_dados)
+- [Boas Práticas](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/boas_praticas)
+- [Estrutura de Dados](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/estrutura_de_dados)
 
 1. [HTML](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/01_html)
 2. [CSS](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/02_css)

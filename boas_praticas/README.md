@@ -1,6 +1,12 @@
-# Boas Práticas 💪
+# Boas Práticas 💪 - Módulo Aquecimento
 
 🔙 [Voltar Página Inicial](https://github.com/brseghese/vtex-hiring-coders-3)
+
+<h3>📚 Material de Apoio</h3>
+
+- [PDF](https://drive.google.com/file/d/1-dTqNpLFhpF0y2RboIhAB-9cIvimk4iI/view)
+
+---
 
 ## Padrões
 
@@ -13,10 +19,6 @@
 <li>Model View ViewModel (MVVM)</li>
 <li>Design Patterns: Singleton, Strategy e Adapter</li>
 </ol>
-
-<h3 id="conteudo">📚 Material de Apoio</h3>
-
-- [PDF](https://drive.google.com/file/d/1-dTqNpLFhpF0y2RboIhAB-9cIvimk4iI/view)
 
 ### 📝​ Resumo
 
@@ -68,12 +70,14 @@ Nesse padrão não há necessariamente uma referenciação entre eles.
 
 São divididos em 3 categorias:
 
-Singleton: padrão do tipo CREATIONAL (criação) quee garante que exista apenas uma instância de uma clase.
+Singleton: padrão do tipo CREATIONAL (criação) que garante que exista apenas uma instância de uma classe.
 
 Strategy: padrão do tipo BEHAVIORAL (comportamental) que garante a separação de responsabilidades e reutilização das funções.
 
 Adapter: padrão do tipo STRUCTURAL (estrutural) que expande a classe ou objeto com herança.
 Muito ulilizada com integrações de serviços de terceiros.
+
+---
 
 ### 📢 Linkes Úteis
 
