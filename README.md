@@ -30,7 +30,7 @@ Repositório com conteúdos do programa **Hiring** **Coders** **3** da **VTEX**.
 - [Metodologias Ágeis](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/a_metodologias_ageis)
 - [Boas Práticas](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/b_boas_praticas)
 - [Estrutura de Dados](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/c_estrutura_de_dados)
-- Testes
+- [Testes](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/d_testes)
 - [HTML](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/01_html)
 - [CSS](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/02_css)
 - Soft Skills
