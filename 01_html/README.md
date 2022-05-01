@@ -2,7 +2,7 @@
 
 🔙 [Voltar Página Inicial](https://github.com/brseghese/vtex-hiring-coders-3)
 
-<h3>📚 Material de Apoio</h3>
+<h3> 📚 Material de Apoio</h3>
 
 - [PDF](https://drive.google.com/file/d/1eEREI8-V-bZjUxqPx0s7UqrDWaYkjg7j/view)
 
@@ -12,12 +12,12 @@
 
 HyperText Markup Language — Linguagem de Marcação de Hipertexto
 
-<h3>🚀 Exercícios</h3>
+<h3> 🛠️​ Exercícios</h3>
 
 - Minha Primeira Página HTML
 - Minha Lojinha Virtual
 
-<h3>🛰️ Deploy</h3>
+<h3> 🛰️ Deploy</h3>
 
 [Clique aqui para acessar o Projeto](https://heringcoders3-html.netlify.app/)🔗
 
@@ -25,7 +25,7 @@ HyperText Markup Language — Linguagem de Marcação de Hipertexto
 
 ---
 
-<h3>📢 Links Úteis</h3>
+<h3> 🔗​ Links Úteis</h3>
 
 - [HTML MDN](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [W3schools](https://www.w3schools.com/html/)

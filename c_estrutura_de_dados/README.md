@@ -38,7 +38,7 @@ O conceito de lista é amplo. Podemos ter uma lista de fila, uma lista de pilha,
 
 ---
 
-## Busca de Elementos
+## Busca
 
 <ol>
 <li>Busca Sequencial</li>
@@ -83,7 +83,7 @@ A posição atual é comparada com a próxima posição e, se a posição atual 
 
 É uma estrutura hierárquica.
 
-### 🚀 Exercícios
+### 🛠️​ Exercícios
 
 <li>pilha.js</li>
 <li>busca.js</li>
@@ -91,6 +91,6 @@ A posição atual é comparada com a próxima posição e, se a posição atual 
 
 ---
 
-### 📢 Linkes Úteis
+### 🔗​ Linkes Úteis
 
 [Diagram Draw](https://app.diagrams.net/) <br>

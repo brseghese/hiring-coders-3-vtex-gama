@@ -79,7 +79,7 @@ Muito ulilizada com integrações de serviços de terceiros.
 
 ---
 
-### 📢 Linkes Úteis
+### 🔗​ Linkes Úteis
 
 [Get BEM](http://getbem.com/) <br>
 [Storybook](https://storybook.js.org/docs/react/get-started/install) <br>

@@ -20,22 +20,28 @@ Repositório com conteúdos do programa **Hiring** **Coders** **3** da **VTEX**.
 
 <ul>
 <li>26/04/2022 a 01/05/2022 - Aquecimento</li>
-  <ul>
-    <li>Boas Práticas | Estrutura de Dados</li>
-    <li>HTML | CSS</li>
-    <li>Soft Skills</li>
-  </ul>
 <li>02/05/2022 a 08/05/2002  -  Semana 01</li>
 </ul>
-<h3 id="modulos">📍 Módulos</h3>
+
+<h3 id="modulos">🎯​ Acessar Módulos</h3>
 
 ✅ Aquecimento
 
-- [Boas Práticas](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/boas_praticas)
-- [Estrutura de Dados](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/estrutura_de_dados)
+- [Metodologias Ágeis](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/a_metodologias_ageis)
+- [Boas Práticas](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/b_boas_praticas)
+- [Estrutura de Dados](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/c_estrutura_de_dados)
+- Testes
+- [HTML](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/01_html)
+- [CSS](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/02_css)
+- Soft Skills
 
-1. [HTML](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/01_html)
-2. [CSS](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/02_css)
+<!-- - [Testes](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/d_testes) -->
+
+✅ Semana 01
+
+- Introdução
+- Lógica de Programação
+- GIT
 
 <h3 id="tecnologias">⚙️ Tecnologias Utilizadas</h3>
 

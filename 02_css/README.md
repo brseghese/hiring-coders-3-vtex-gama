@@ -2,7 +2,7 @@
 
 🔙 [Voltar Página Inicial](https://github.com/brseghese/vtex-hiring-coders-3)
 
-<h3>📚 Material de Apoio</h3>
+<h3> 📚 Material de Apoio</h3>
 
 - [PDF](https://drive.google.com/file/d/1r8AduyuKkrEZnJHWIatFwiQw2N333xQT/view)
 
@@ -12,11 +12,11 @@
 
 Cascading Style Sheet — Folha de Estilo em Cascata
 
-<h3>🚀 Exercício</h3>
+<h3> 🛠️​ Exercício</h3>
 
 - Meu Portfólio
 
-<h3>🛰️ Deploy</h3>
+<h3> 🛰️ Deploy</h3>
 
 [Clique aqui para acessar o Projeto](https://hiringcoders3-css.netlify.app/)🔗
 
@@ -24,7 +24,7 @@ Cascading Style Sheet — Folha de Estilo em Cascata
 
 ---
 
-<h3>📢 Links Úteis</h3>
+<h3> 🔗​ Links Úteis</h3>
 
 - [CSS MDN](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - [CSS Tricks](https://css-tricks.com/)
