@@ -1,4 +1,4 @@
-# 03. Introdução ao Mundo do Desenvolvimento - Módulo Semana 01
+# Introdução ao Mundo do Desenvolvimento
 
 🔙 [Voltar Página Inicial](https://github.com/brseghese/vtex-hiring-coders-3)
 

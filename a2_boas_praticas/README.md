@@ -1,4 +1,4 @@
-# Boas Práticas 💪 - Módulo Aquecimento
+# Boas Práticas 💪
 
 🔙 [Voltar Página Inicial](https://github.com/brseghese/vtex-hiring-coders-3)
 

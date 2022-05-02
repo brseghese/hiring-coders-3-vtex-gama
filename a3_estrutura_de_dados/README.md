@@ -1,4 +1,4 @@
-# Estrutura de Dados 🔋​ - Módulo Aquecimento
+# Estrutura de Dados 🔋​
 
 🔙 [Voltar Página Inicial](https://github.com/brseghese/vtex-hiring-coders-3)
 

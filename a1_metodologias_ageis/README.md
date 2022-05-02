@@ -1,4 +1,4 @@
-<h1 id="0"> Metodologias Ágeis 🎯​​ - Módulo Aquecimento</h1>
+<h1 id="0"> Metodologias Ágeis 🎯​​</h1>
 
 🔙 [Voltar Página Inicial](https://github.com/brseghese/vtex-hiring-coders-3)
 

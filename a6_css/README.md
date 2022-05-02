@@ -1,4 +1,4 @@
-# 02. CSS - Módulo Aquecimento
+# CSS
 
 🔙 [Voltar Página Inicial](https://github.com/brseghese/vtex-hiring-coders-3)
 
