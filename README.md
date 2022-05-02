@@ -39,7 +39,7 @@ Repositório com conteúdos do programa **Hiring** **Coders** **3** da **VTEX**.
 
 ✅ Semana 01
 
-- Introdução
+- [Introdução ao Mundo do Desenvolvimento](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/03_introducao_desenvolvimento)
 - Lógica de Programação
 - GIT
 
