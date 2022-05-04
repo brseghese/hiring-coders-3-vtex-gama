@@ -1,0 +1,14 @@
+{
+  "name": "b2_logica_programacao",
+  "version": "1.0.0",
+  "description": "🔙 [Voltar Página Inicial](https://github.com/brseghese/vtex-hiring-coders-3)",
+  "main": "operacoes.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}
