@@ -39,7 +39,7 @@ Repositório com conteúdos do programa **Hiring** **Coders** **3** da **VTEX**.
 
 - [Introdução ao Mundo do Desenvolvimento](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/b1_introducao_desenvolvimento)
 - [Lógica de Programação](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/b2_logica_programacao)
-- GIT
+- [GIT](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/b3_git)
 
 <h3 id="tecnologias">⚙️ Tecnologias Utilizadas</h3>
 
