@@ -1,4 +1,4 @@
-# Lógica de Programação
+# Git
 
 🔙 [Voltar Página Inicial](https://github.com/brseghese/vtex-hiring-coders-3)
 
