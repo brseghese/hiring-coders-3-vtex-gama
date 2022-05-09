@@ -1,10 +1,20 @@
-# Introdução ao Typescript
+<h1 id="topo">Introdução ao Typescript</h1>
 
-🔙 [Voltar Página Inicial](https://github.com/brseghese/vtex-hiring-coders-3)
+🔙 [Voltar Página Inicial](https://github.com/brseghese/vtex-hiring-coders-3/c4_introducao_typescript)
+
+[![image](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 
 ---
 
-[![image](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+<details>
+<summary>Clique para Navegar 🔽</summary>
+
+◽ <a href="#intro">Introdução</a> <br>
+◽ <a href="#tipos">Tipos Básicos</a>
+
+</details>
+
+<h2 id="intro">🚀Introdução</h2>
 
 ### O que é TypeScript?
 
@@ -60,15 +70,15 @@ Na pasta do projeto através do terminal:
 npm init -y
 ```
 
-Criamos um pacote npm vazio, ou seja, somente um package.json e em seguida instalamos o TS:
+Criamos um pacote npm vazio, ou seja, somente um **package.json** e em seguida instalamos o TS:
 
 ```
 npm i -D typescript
 ```
 
-> NPM é um gerenciador (manager) de pacotes
+> NPM é um gerenciador de pacotes
 >
-> --save-dev -> significa que o pacote é uma dependência de desenvolvimento
+> **--save-dev** significa que o pacote é uma dependência de desenvolvimento
 >
 > O 'install' e o '--save-dev' pode ser encurtado para 'i' e '-D'
 
@@ -82,17 +92,19 @@ npx tsc --init
 
 > NPX é um executor
 >
-> tsc --init -> acessa o binário do compilador do TS
+> **tsc --init** acessa o binário do compilador do TS
 
-O npx verificará se o \<comando> ou o \<pacote> existe no $PATH ou nos arquivos binários do projeto local. Se estiver, eles o executarão.
+O npx verificará se o \<comando> ou o \<pacote> existe no $PATH ou nos arquivos binários do projeto local.
 
-Depois de executado será criado o tsconfig.json que será usado para configurar o compilador do TS.
+Se estiver, eles o executarão.
+
+Depois de executado será criado o **tsconfig.json** que será usado para configurar o compilador do TS.
 
 ### Montando uma estrutura de Projeto
 
 Criamos uma pasta **src** onde ficarão nossos arquivos de TS e uma pasta **build** com os arquivos finais.
 
-É comum ignorar a pasta build e node_modules no controle de versão e para isso criamos um arquivo .gitignore na pasta build e dentro do arquivo escrevemos o nome das pastas ignoradas:
+É comum ignorar a pasta build e node_modules no controle de versão e para isso criamos um arquivo **.gitignore** e dentro do arquivo escrevemos o nome das pastas ignoradas:
 
 ```
 node_modules/
@@ -116,9 +128,9 @@ Executando no terminal:
 npx tsc
 ```
 
-Podemos automatizar essa execução criando no package.json um script de build:
+Podemos automatizar essa execução:
 
-No objeto scripts criamos um chave e valor:
+No arquivo **package.json** criamos um script de build colocando no objeto **scripts** a seguinte chave e valor:
 
 ```
 "build": "tsc"
@@ -131,3 +143,23 @@ npm run build
 ```
 
 > De baixo dos panos irá executar o compilador do TS
+
+### Fazendo testes
+
+No arquivo **exemplo.ts** criamos a função soma tipando os parâmetros e na sequência chamando a função das duas formas, uma enviando number e outra enviando string e mesmo com o erro de tipagem foi gerado o arquivo **exemplo.js**.
+
+Podemos resolver esse erro bloqueando nosso build:
+
+No arquivo **tsconfig.json** adicionamos a seguinte chave e valor:
+
+```
+"noEmitOnError": true,
+```
+
+Assim não será gerado o arquivo **exemplo.js** com erro.
+
+<a href="#topo">🔝</a>
+
+---
+
+<h2 id="tipos">Tipos Básicos</h2>
