@@ -165,4 +165,11 @@ Assim não será gerado o arquivo **exemplo.js** com erro.
 
 ---
 
-<h2 id="tipos">Tipos Básicos</h2>
+<h2 id="tipos">Tipos</h2>
+
+### Tipos Básicos
+
+- string
+- number
+- boolean
+- array
