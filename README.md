@@ -19,13 +19,14 @@ Repositório com conteúdos do programa **Hiring** **Coders** **3** da **VTEX**.
 **Fase 01**
 
 <ul>
-<li>26/04/2022 a 01/05/2022 - Aquecimento</li>
-<li>02/05/2022 a 08/05/2002 - Semana 01</li>
+<li>26/04/2022 a 01/05/2022 - <a href="#p0">Aquecimento</a></li>
+<li>02/05/2022 a 08/05/2002 - <a href="#p1">Semana 01</a></li>
+<li>09/05/2022 a 15/05/2002 - <a href="#p2">Semana 02</a></li>
 </ul>
 
 <h3 id="modulos">🎯​ Acessar Módulos</h3>
 
-✅ Aquecimento
+<p id="p0">✅ Aquecimento</p>
 
 - [Metodologias Ágeis](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/a1_metodologias_ageis)
 - [Boas Práticas](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/a2_boas_praticas)
@@ -35,18 +36,28 @@ Repositório com conteúdos do programa **Hiring** **Coders** **3** da **VTEX**.
 - [CSS](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/a6_css)
 - Soft Skills
 
-✅ Semana 01
+<p id="p1">✅ Semana 01</p>
 
 - [Introdução ao Mundo do Desenvolvimento](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/b1_introducao_desenvolvimento)
 - [Lógica de Programação](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/b2_logica_programacao)
 - [GIT](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/b3_git)
 
+<p id="p2">✅ Semana 02</p>
+
+- JavaScript Básico
+- JavaScript Básico Prática
+- JavaScript Intermediário
+- [Introdução ao Typescript](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/c4_introducao_typescript)
+
 <h3 id="tecnologias">⚙️ Tecnologias Utilizadas</h3>
 
 <div style="display: inline_block">
-  <img align="center" alt="Bruno-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
   <img align="center" alt="Bruno-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   <img align="center" alt="Bruno-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+  <img align="center" alt="Bruno-Git" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg">
+  <img align="center" alt="Bruno-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+  <img align="center" alt="Bruno-TypeScript" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg">
+          
 </div>
 
 <h3 id="acessar-projeto">📁 Acessar Projeto</h3>
