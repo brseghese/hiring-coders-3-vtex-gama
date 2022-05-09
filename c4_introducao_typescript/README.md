@@ -1,28 +1,31 @@
 <h1 id="topo">Introdução ao Typescript</h1>
 
-🔙 [Voltar Página Inicial](https://github.com/brseghese/vtex-hiring-coders-3/c4_introducao_typescript)
-
-[![image](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+🔙 [Voltar Página Inicial](https://github.com/brseghese/vtex-hiring-coders-3)
 
 ---
+
+[![image](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 
 <details>
 <summary>Clique para Navegar 🔽</summary>
 
-◽ <a href="#intro">Introdução</a> <br>
-◽ <a href="#tipos">Tipos Básicos</a>
+◻️​ <a href="#intro">Introdução</a>
+
+- <a href="#instalar">Como instalar o TypeScript?</a>
+
+◻️​ <a href="#tipos">Tipos Básicos</a>
 
 </details>
 
 <h2 id="intro">🚀Introdução</h2>
 
-### O que é TypeScript?
+<h3>O que é TypeScript?</h3>
 
 O TypeScript é um superset (camada extra) para potencializar o JavaScript.
 
 O código TS é compilado e gera um código JS (exceção é o DENO).
 
-### Quais problemas o TypeScript resolve?
+<h3>Quais problemas o TypeScript resolve?</h3>
 
 Um exemplo bem curto e fácil de lembrar é esse:
 
@@ -54,9 +57,9 @@ Inferir siginifica "deduzir" ou "concluir".
 
 O compilador do TS é capaz de deduzir muitos tipos, que permite que o trabalho fique mais prático.
 
-### Como instalar o TS?
+<h3 id="instalar">🛠️​ Como instalar o TypeScript?</h3>
 
-Tão simples quanto:
+Executando o código:
 
 ```
 npm install --save-dev typescript
