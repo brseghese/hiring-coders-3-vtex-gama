@@ -9,15 +9,12 @@
 <details>
 <summary>Clique para Navegar 🔽</summary>
 
-◻️​ <a href="#intro">Introdução</a>
-
 - <a href="#instalar">Como instalar o TypeScript?</a>
-
-◻️​ <a href="#tipos">Tipos Básicos</a>
+- <a href="#tipos">Tipos</a>
 
 </details>
 
-<h2 id="intro">🚀Introdução</h2>
+<h2>🚀Introdução</h2>
 
 <h3>O que é TypeScript?</h3>
 
@@ -57,7 +54,7 @@ Inferir siginifica "deduzir" ou "concluir".
 
 O compilador do TS é capaz de deduzir muitos tipos, que permite que o trabalho fique mais prático.
 
-<h3 id="instalar">🛠️​ Como instalar o TypeScript?</h3>
+<h2 id="instalar">🛠️​ Como instalar o TypeScript?</h2>
 
 Executando o código:
 
@@ -165,11 +162,30 @@ Assim não será gerado o arquivo **exemplo.js** com erro.
 
 ---
 
-<h2 id="tipos">Tipos</h2>
+<h2 id="tipos">🧰​​ Tipos</h2>
 
 ### Tipos Básicos
 
-- string
-- number
-- boolean
-- array
+- String
+- Number
+- Boolean
+- Array
+- Tupla
+  - é um array com tamanho e tipo definidos
+- Enum
+  - é uma representação numérica de valor legível
+  - diferente dos outros tipos ele gera um código javascript
+- Any
+  - é uma tipagem atribuída a qualquer valor que não esteja tipado
+- Unknown
+  - em casos específicos temos uma segurança melhor que o Any
+- Null e Undefined
+  - ambos são validados como false
+  - os conceitos são diferentes
+  - null é uma variável que tem o valor nulo
+  - undefined são variáveis que foram criadas e não possuem valor atribuído
+- Object
+
+### Múltiplos Tipos com Union Types
+
+<a href="#topo">🔝</a>
