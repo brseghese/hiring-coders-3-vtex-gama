@@ -1,4 +1,4 @@
-<h1 id="topo">Introdução ao Typescript <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="36px"/></h1>
+<h1 id="topo">Introdução ao Typescript <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="30px"/></h1>
 
 🔙 [Voltar Página Inicial](https://github.com/brseghese/vtex-hiring-coders-3)
 
@@ -9,8 +9,9 @@
 <details>
 <summary>Clique para Navegar 🔽</summary>
 
-◽ <a href="#instalar">Como instalar o TypeScript?</a> <br>
+◽ <a href="#instalar">Instalando o TS</a> <br>
 ◽ <a href="#tipos">Tipos</a> <br>
+◽ <a href="#objetos">Orientação a Objetos</a>
 
 </details>
 
@@ -18,11 +19,11 @@
 
 ### 📍​ O que é TypeScript?
 
-O TypeScript é um superset (camada extra) para potencializar o JavaScript.
+O TS é um superset (camada extra) para potencializar o JS.
 
 O código TS é compilado e gera um código JS (exceção é o DENO).
 
-<b>Quais problemas o TypeScript resolve?</b>
+<b>Quais problemas o TS resolve?</b>
 
 Um exemplo bem curto e fácil de lembrar é esse:
 
@@ -37,7 +38,7 @@ console.log(soma('1', '1')) // 11
 
 Para resolver podemos aplicar validação estática de nossa tipagem e garantir que parâmetros, definições e retornos seguem uma determinada regra.
 
-<b>Quais problemas o TypeScript traz?</b>
+<b>Quais problemas o TS traz?</b>
 
 - Necessidade de um processo de buil/compilação
 - Uma certa burocratização do desenvolvimento
@@ -54,13 +55,7 @@ Inferir siginifica "deduzir" ou "concluir".
 
 O compilador do TS é capaz de deduzir muitos tipos, que permite que o trabalho fique mais prático.
 
-<h2 id="instalar">🛠️​ Como instalar o TypeScript?</h2>
-
-Executando o código:
-
-```
-npm install --save-dev typescript
-```
+<h2 id="instalar">🛠️​ Instalando o TS?</h2>
 
 ### 📍​ Vamos passo a passo:
 
@@ -72,19 +67,23 @@ npm init -y
 
 Criamos um pacote npm vazio, ou seja, somente um **package.json**.
 
+NPM é um gerenciador de pacotes.
+
 ⚡ 2. Na sequência instalamos o TS digitando:
+
+```
+npm install --save-dev typescript
+```
+
+**OU**
 
 ```
 npm i -D typescript
 ```
 
-NPM é um gerenciador de pacotes.
-
-O --save-dev significa que o pacote é uma dependência de desenvolvimento.
-
 O install pode ser abreviado por i.
 
-O --save-dev pode abreviar por -D.
+O --save-dev significa que o pacote é uma dependência de desenvolvimento e pode se abreviado por -D.
 
 ⚡ 3. Na sequência configuramos nosso projeto em TS digitando:
 
@@ -196,13 +195,13 @@ A linguagem JS é composto por uma <b>Pilha de Chamada</b> (call stack) onde cad
 
 Se a função não tem um retorno definido o retorno padrão é undefined. Esse é o comportametno padrão do JavaScript.
 
-No TypeScript o compilador também consegue deduzir o tipo de retorno da nossa função.
+No TS o compilador também consegue deduzir o tipo de retorno da nossa função.
 
-### ✔️​ Void
+✔️​ Void
 
 É o tipo padrão das funções que não tem retorno ou quando queremos executar uma função e deixar explícito que a função não terá retorno.
 
-### ✔️​ Never
+✔️​ Never
 
 É o tipo que determina que a função nunca retorne.
 
@@ -211,7 +210,7 @@ No TypeScript o compilador também consegue deduzir o tipo de retorno da nossa f
 - Laços de repetição infinitos
 - Funções que disparam erros
 
-### ✔️​ Types Alias
+✔️​ Types Alias
 
 É bem parecido com objeto, só que no lugar de chave e valor são campos e tipo do campo.
 
@@ -219,11 +218,11 @@ Ao declarar um objeto tipo Types Alias os valores das chaves ficam tipadas.
 
 Podemos definir também campos opcionais adicionado ? apos o nome do campo.
 
-### ✔️​ Union Types
+✔️​ Union Types
 
 É caracterizado com |, ele indica se o retorno será de um tipo ou de outro.
 
-### ✔️​ Intersection Types
+✔️​ Intersection Types
 
 É caracterizado com & agrupando vários Types Alias.
 
@@ -233,19 +232,61 @@ Podemos definir também campos opcionais adicionado ? apos o nome do campo.
 
 Tipos de função Void e Never.
 
-Void são para tipos de função que não tem retorno explícito.
+✔️ Void são para tipos de função que não tem retorno explícito.
 
-Never são para funções de laços de repetições ou para funções que disparam erros.
+✔️ Never são para funções de laços de repetições ou para funções que disparam erros.
 
-Type Alias que é a declaração de tipos, declarando os campos e os tipos do campos.
+✔️ Type Alias é a declaração de tipos, declarando os campos e os tipos do campos.
 
-Uion Types que podemos garantir se o valor é de um tipo ou de outro tipo.
+✔️ Uion Types podemos garantir se o valor é de um tipo ou de outro tipo.
 
-Intersection Types que podemos fazer a união dos nossos tipos.
+✔️ Intersection Types podemos fazer a união dos nossos tipos.
 
-Reforçando que podemos combinar todos eles.
+✔️ Reforçando que podemos combinar todos eles.
 
-E lembrando que podemos tipar as funções para retornar outros valores também.
+✔️ Lembrando que podemos tipar as funções para retornar outros valores também.
+
+<a href="#topo">🔝</a>
+
+---
+
+<h2 id="objetos">📦​​​ Orientação a Objetos</h2>
+
+### 📍 Classes
+
+No JS as classes são funções construtores que irão criar objetos.
+
+Trata-se de um açucar sintático pois é uma abstração de algo que já existi na linguagem.
+
+**Static**
+
+Os métodos estáticos já existem no JS.
+
+São chamados direto pela classe.
+
+<b>Public | Private | Protected</b>
+
+Modificadores de acesso.
+
+✔️ Public
+
+As propriedades da classe são acessíveis de forma geral, dentro e fora da classe.
+
+✔️ Private
+
+As propriedades da classe são acessíveis apenas de onde o campo foi criado.
+
+✔️ Protected
+
+As propriedades da classe são acessíveis dentro da classe (e subclasses) de onde o campo foi criado.
+
+<b>Interface e Implements</b>
+
+São semelhantes a Type Alias e são formas de garantir campos e métodos das classes.
+
+<b>Type Assertions</b>
+
+É utilizado para indicar ao compilador do TS que garanta a tipagem que estamos marcando de um tipo específico.
 
 <a href="#topo">🔝</a>
 
