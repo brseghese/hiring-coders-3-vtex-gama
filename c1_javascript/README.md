@@ -31,3 +31,7 @@
 - Classes
 
 <h3 id="2"> 📍​​​ JavaScript - Desafio Validador CPF</h3>
+
+[Acessar Desafio](https://hc3-validador-cpf.netlify.app/)🔗​
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d5fe75a5-f01f-464e-b740-5a993793a43f/deploy-status)](https://app.netlify.com/sites/hc3-validador-cpf/deploys)
