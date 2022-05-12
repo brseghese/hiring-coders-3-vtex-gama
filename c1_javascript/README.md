@@ -10,13 +10,18 @@
 
 <a href="https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps/What_is_JavaScript"><img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"></a>
 
-### 📍​ Tópicos
+<details>
+<summary>Clique para Navegar 🔽</summary>
 
-JavaScript - Básico <br>
-JavaScript - Desafio Validador CPF <br>
-JavaScript - Intermediário
+◽ <a href="#1">JavaScript - Básico</a> <br>
+◽ <a href="#2">JavaScript - Desafio Validador CPF</a> <br>
+◽ <a href="#3">JavaScript - Intermediário</a>
 
-### ✔️​​ JavaScript - Básico
+</details>
+
+<h2>🚀 Introdução</h2>
+
+<h3 id="1"> 📍​​​ JavaScript - Básico</h3>
 
 - Variáveis
 - Operações
@@ -25,4 +30,4 @@ JavaScript - Intermediário
 - Funções
 - Classes
 
-### ✔️​​ JavaScript - Desafio Validador CPF
+<h3 id="2"> 📍​​​ JavaScript - Desafio Validador CPF</h3>

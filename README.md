@@ -44,8 +44,8 @@ Repositório com conteúdos do programa **Hiring** **Coders** **3** da **VTEX**.
 
 <p id="p2">✅ Semana 02</p>
 
-- [Iniciando JavaScript](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/c1_javascript)
-- [Iniciando TypeScript](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/c2_typescript)
+- [Introdução ao JavaScript](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/c1_javascript)
+- [Introdução ao TypeScript](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/c2_typescript)
 
 <h3 id="tecnologias">⚙️ Tecnologias Utilizadas</h3>
 
