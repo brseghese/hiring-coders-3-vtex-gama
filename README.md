@@ -40,14 +40,12 @@ Repositório com conteúdos do programa **Hiring** **Coders** **3** da **VTEX**.
 
 - [Introdução ao Mundo do Desenvolvimento](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/b1_introducao_desenvolvimento)
 - [Lógica de Programação](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/b2_logica_programacao)
-- [GIT](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/b3_git)
+- [GIT & GitHub](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/b3_git)
 
 <p id="p2">✅ Semana 02</p>
 
-- JavaScript Básico
-- JavaScript Básico Prática
-- JavaScript Intermediário
-- [Introdução ao Typescript](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/c4_introducao_typescript)
+- [Iniciando JavaScript](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/c1_javascript)
+- [Iniciando TypeScript](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/c2_typescript)
 
 <h3 id="tecnologias">⚙️ Tecnologias Utilizadas</h3>
 
