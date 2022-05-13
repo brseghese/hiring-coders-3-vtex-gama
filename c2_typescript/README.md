@@ -2,6 +2,10 @@
 
 🔙 [Voltar Página Inicial](https://github.com/brseghese/vtex-hiring-coders-3)
 
+<h3> 📚 Material de Apoio</h3>
+
+- [PDF](https://drive.google.com/file/d/1MY2D3IJof2kkFMOuVcyZpqerza5VHYHP/view)
+
 ---
 
 [![image](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
