@@ -22,9 +22,10 @@ Repositório com conteúdos do programa **Hiring** **Coders** **3** da **VTEX**.
 <li>26/04/2022 a 01/05/2022 - <a href="#p0">Aquecimento</a></li>
 <li>02/05/2022 a 08/05/2002 - <a href="#p1">Semana 01</a></li>
 <li>09/05/2022 a 15/05/2002 - <a href="#p2">Semana 02</a></li>
+<li>16/05/2022 a 22/05/2002 - <a href="#p3">Semana 03</a></li>
 </ul>
 
-<h3 id="modulos">🎯​ Acessar Módulos</h3>
+<h3 id="modulos">🎯​ Módulos</h3>
 
 <p id="p0">✅ Aquecimento</p>
 
@@ -38,14 +39,18 @@ Repositório com conteúdos do programa **Hiring** **Coders** **3** da **VTEX**.
 
 <p id="p1">✅ Semana 01</p>
 
-- [Introdução ao Mundo do Desenvolvimento](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/b1_introducao_desenvolvimento)
+- [Introdução ao Desenvolvimento](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/b1_introducao_desenvolvimento)
 - [Lógica de Programação](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/b2_logica_programacao)
 - [GIT & GitHub](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/b3_git)
 
 <p id="p2">✅ Semana 02</p>
 
-- [Introdução ao JavaScript](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/c1_javascript)
-- [Introdução ao TypeScript](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/c2_typescript)
+- [JavaScript](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/c1_javascript)
+- [TypeScript](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/c2_typescript)
+
+<p id="p3">✅ Semana 03</p>
+
+- [React.js](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/d1_react)
 
 <h3 id="tecnologias">⚙️ Tecnologias Utilizadas</h3>
 
@@ -55,6 +60,7 @@ Repositório com conteúdos do programa **Hiring** **Coders** **3** da **VTEX**.
   <img align="center" alt="Bruno-Git" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg">
   <img align="center" alt="Bruno-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
   <img align="center" alt="Bruno-TypeScript" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg">
+  <img align="center" alt="Bruno-React" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg">                 
           
 </div>
 
