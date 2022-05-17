@@ -63,6 +63,8 @@ npx create-react-app nome_do_projeto
 - serão feitas todas as configurações necessárias
 - npx executa um comando de uma fonte externa sem necessidade de instalação local
 
+⚡ 2. Executando o projeto:
+
 ```
 cd nome_do_projeto
 ```
@@ -73,7 +75,7 @@ npm start
 
 ### ⭐ Pesquisar Perfil GitHub - ​[Acessar Projeto](https://github.com/brseghese/vtex-hiring-coders-3-react-js-pesquisar-github)🔗
 
-Projeto criado para exemplificar os conceitos.
+Projeto criado para exemplificar os conceitos dados no curso.
 
 <h3 id="2"> 📌 Fundamentos</h3>
 
@@ -89,7 +91,7 @@ São como funções JavaScript, aceitam entradas como propriedades (chamadas “
 
 Os props são argumentos que você passa para uma função ou classe. Como seus componentes são transformados em objetos semelhantes aos HTML pelo JSX, você passará os props como se fossem atributos do HTML. Diferente dos elementos HTML, você pode passar vários tipos de dados diferentes: strings, matrizes.
 
-**Estado / State**
+**Estados / States**
 
 O state é onde guardamos os dados do nosso componente.
 
