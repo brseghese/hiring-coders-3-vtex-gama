@@ -17,6 +17,7 @@
 ◽ <a href="#0">O que é React</a> <br>
 ◽ <a href="#1">Instalando o React</a> <br>
 ◽ <a href="#2">Fundamentos</a> <br>
+◽ <a href="#3">Projeto Pesquisar Perfil GitHub</a> <br>
 
 </details>
 
@@ -73,13 +74,9 @@ cd nome_do_projeto
 npm start
 ```
 
-### ⭐ Pesquisar Perfil GitHub - ​[Acessar Projeto](https://github.com/brseghese/vtex-hiring-coders-3-react-js-pesquisar-github)🔗
-
-Projeto criado para exemplificar os conceitos dados no curso.
-
 <h3 id="2"> 📌 Fundamentos</h3>
 
-**Componentes**
+**Componentes / Components**
 
 Componentes são conjuntos isolados de lógica (Javascript), visualização (JSX/HTML) e possível estilização (CSS).
 
@@ -96,6 +93,22 @@ Os props são argumentos que você passa para uma função ou classe. Como seus 
 O state é onde guardamos os dados do nosso componente.
 
 Ele é gerenciado pelo React que determina a necessidade de cada componente ser renderizado novamente, ou seja, sempre que o nosso estado sofrer alguma alteração em uma informação utilizada dentro do método render nosso componente é montado novamente.
+
+**Hooks** são funções que nos permitir utilizar estado, ciclo de vida, entre outras funcionalidades, sem a necessidade de escrevermos componentes com classe.
+
+- useState
+
+A função useState recebe por parâmetro o valor padrão do nosso estado e retorna o valor do estado em si e uma função que altera esse valor.
+
+**Controlled Components**
+
+O componente React que renderiza um formulário também controla o que acontece nesse formulário nas entradas subsequentes do usuário. Um input cujo o valor é controlado pelo React dessa maneira é chamado de “componente controlado” (controlled component).
+
+<h3 id="3"> ⭐ Pesquisar Perfil GitHub</h3>
+
+- [Clique aqui](https://github.com/brseghese/vtex-hiring-coders-3-react-js-pesquisar-github)🔗 para acessar o repositório do projeto.
+
+- [Clique aqui]()🔗 para acessar o projeto.
 
 <a href="#topo">🔝</a>
 
