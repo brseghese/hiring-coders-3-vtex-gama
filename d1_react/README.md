@@ -104,6 +104,10 @@ A função useState recebe por parâmetro o valor padrão do nosso estado e reto
 
 O componente React que renderiza um formulário também controla o que acontece nesse formulário nas entradas subsequentes do usuário. Um input cujo o valor é controlado pelo React dessa maneira é chamado de “componente controlado” (controlled component).
 
+**React Router Dom**
+
+O react-router-dom é uma biblioteca padrão para que você consiga fazer o roteamento das páginas da sua aplicação de forma dinâmica.
+
 <h3 id="3"> ⭐ Pesquisar Perfil GitHub</h3>
 
 - [Clique aqui](https://github.com/brseghese/vtex-hiring-coders-3-react-js-pesquisar-github)🔗 para acessar o repositório do projeto.

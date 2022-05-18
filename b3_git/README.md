@@ -84,8 +84,6 @@ O comando git fetch baixa todos os commits do repositório remoto sem afetar o s
 
 No main fica o que já está certo, nas branch criamos novas funcionalidades e estando tudo certo juntamos com a main.
 
-[Projeto Cronos](https://github.com/brseghese/projeto_cronos)🔗 repositório criado com o passo a passo acima.
-
 ### Fork
 
 **Fork** cria cópia de repositório de terceiro para minha conta.
