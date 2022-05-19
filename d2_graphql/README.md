@@ -17,7 +17,7 @@
 ◽ <a href="#1">Iniciando o Projeto</a> <br>
 ◽ <a href="#2">Criando o Servidor</a> <br>
 ◽ <a href="#3">Configurando Porta e HostName</a> <br>
-◽ <a href="#4">Criando Login</a> <br>
+◽ <a href="#4">Criando um tela de Login</a> <br>
 
 </details>
 
@@ -25,30 +25,36 @@
 
 GraphQL é uma linguagem de consumo de grafos, onde você tem controle sobre os campos, as relações e os argumentos usados pra obtê-los. Mas não se resume a isso, também podemos fazer inserções e modificações usando a mesma sintaxe simples e intuitiva.
 
-É uma query language para APIs. Podemos pensar no GraphQL como uma forma de desenvolver uma API orientado a tipos.
+É uma **Query Language** para APIs. Podemos pensar no GraphQL como uma forma de desenvolver uma API orientado a tipos.
 
-<h3 id="1">​🚀 Iniciando o Projeto - Client Service</h3>
+---
+
+<h3 id="1">​🚀 Iniciando o Projeto - Cliente / Servidor</h3>
 
 Requisitos:
 
 - [Node.js](https://nodejs.org/en/)
 - [npm](https://www.npmjs.com/)
 
-Vamos criar um Módulo Node - toda apliação é um módulo Node, não necessariamente pacotes.
+Passo a passo:
 
-Iremos usar um Módulo chamado ESM (ECMAScript Modules) - é o sistema de módulo “mais novo” do Node.
+Vamos criar um módulo Node.js - toda aplicação é um módulo Node.js e não necessariamente pacotes.
 
-⚡️ 1. Criar a pasta do projeto e inicializá-la como um módulo, digitando:
+Iremos usar um módulo chamado **ESM** (ECMAScript Modules) - é o sistema de módulos “mais novo” do Node.js.
+
+⚡️ 1. Criar a pasta do projeto e inicializar como um módulo, digitando:
 
 ```
 npm init
 ```
 
-No entry point definir: "src/main.js" - arquivo principal do módulo.
+Um arquivo "package.json" é criado.
 
-No keywords, não é importante porque não é um pacote.
+Setar na propriedade (entry point) "main" o valor: "src/main.js" definindo o arquivo como principal do módulo.
 
-Com isso é criado o arquivo "package.json" e nele podemos automatizar o processo adicionado no objeto "scripts" a seguinte propriedade e valor:
+A propriedade keywords neste caso não é importante porque não é um pacote.
+
+Automatizar o processo adicionado no objeto "scripts" a seguinte propriedade e valor:
 
 ```
   "start": "node -r esm ."
@@ -58,9 +64,9 @@ Com isso é criado o arquivo "package.json" e nele podemos automatizar o process
 - esm
 - "." é o nosso módulo / poderia ser "src/main.js"
 
-Como não vamos lidar com pacotes e não vamos publicar, podemos setar ele como privado, incluindo a propriedade e valor "private: true", assim o npm não deixará publicá-lo.
+Incluir a propriedade e valor "private: true" pois não teremos pacotes e nem vamos publicar.
 
-⚡️ 2. Como vamos usar o ESM, vamos instalar ele, digitando:
+⚡️ 2. Instalar o ESM, digitando:
 
 ```
 npm i -D esm
@@ -72,17 +78,17 @@ npm i -D esm
 
 O save-dev faz com que o módulo instalado seja uma dependência de desenvolvimento.
 
-E o esm instala o (ESM) como dependência de desenvolvimento.
+O esm instala o (ESM) como dependência de desenvolvimento.
 
-No package.json ele cria o objeto "devDependencies: esm"
+O objeto "devDependencies: esm" é criado no "package.json".
 
-⚡️ 3. Criamos nossa pasta e arquivo "src/main.js", no main.js colocamos um console.log("Hello!") para testar e digitamos no terminal:
+⚡️ 3. Criar a pasta e arquivo "src/main.js", um console.log("Hello") para teste e digitar:
 
 ```
 npm run start
 ```
 
-😎 <b>Ambiente Preparado!</b>
+Ambiente preparado com sucesso!
 
 <a href="#topo">🔝</a>
 
@@ -90,11 +96,17 @@ npm run start
 
 <h3 id="2">🛠️ Criando o Servidor</h3>
 
-No "main.js" importamos a função "createServer" do módulo "http" que é nativo do Node.js e serve para criar servidores.
+Em "main.js" importar a função "createServer" do módulo "http" que é nativo do Node.js para criar o servidor.
 
-Criamos a constante server para guardar a função e rertorná-la.
+Criar uma "const server" para armazenar a função e rertorná-la.
 
-Executamos o servidor como o método "server.listen()", ou seja, colocamos ele para ouvir nossas requisições e tratar elas.
+Executar o servidor com o método "server.listen()" para ouvir as requisições e tratá-las.
+
+Esse método tem outras assinaturas, mas para este projeto receberá os seguintes argumentos:
+
+- porta = 8000
+- host name = 127.0.0.1 - IP (localhost)
+- função (callback) = executa assim que o "server.listen()" inicializa
 
 ```
 import { createServer } from "http";
@@ -105,15 +117,9 @@ server.listen(8000, "127.0.0.1", () => {
 });
 ```
 
-Esse método tem outras assinaturas, mas para este projeto receberá os seguintes argumentos:
+O "createServe()" recebe um callback que é para tratar as requisições.
 
-- porta = 8000
-- host name = 127.0.0.1 - é um ip (localhost)
-- função = é executada assim que o server inicializa
-
-No createServe ele recebe um callback que é para tratar as requisições.
-
-Esse callback recebe dois objetos, o primeiro é o "request" e o segundo é o "response".
+Esse callback recebe dois objetos de parâmetros, o primeiro é o "request" e o segundo é o "response".
 
 Roteamento é quando temos mais de uma forma de acessar um API.
 
@@ -121,15 +127,15 @@ O "request" dá um atributo que é a URL e é justamente esse roteamento.
 
 Fazemos um switch case no "request" e se for verdadeiro o nome da rota ele irá retornar.
 
-No caso vamos criar uma rota chamada "status", que irá dizer se a API está funcionado e vamos retornar.
+No caso estamos criando uma rota chamada "status", que irá dizer se a API está funcionado e vamos retornar.
 
-Esse retorno é o objeto "response" que é tratado como um Buffer pelo Node, então temos que lidar com uma certa continuidade e tem uma ordem de uso (http):
+Esse retorno é o objeto "response" que é tratado como um Buffer pelo Node.js, então temos que lidar com uma certa continuidade e tem uma ordem de uso (parecido com o http):
 
 - cabeçalho com código de status
 - corpo da mensagem
 - fechamento desse buffer de resposta
 
-No switch definimos o default para qq endereço que não seja os "cases" retorne o erro 404.
+Definimos um default no switch e se for passado um endereço que não seja os "cases" retorne o erro 404.
 
 ```
 const server = createServer((request, response) => {
@@ -147,7 +153,7 @@ const server = createServer((request, response) => {
 });
 ```
 
-😎 <b>Servidor criado com sucesso!</b>
+Servidor criado com sucesso!
 
 <a href="#topo">🔝</a>
 
@@ -166,13 +172,13 @@ server.listen(PORT, HOSTNAME, () => {
 });
 ```
 
-Testando a porta, digitar no terminal:
+Testando a porta, digitando:
 
 ```
 PORT=3000 npm run start
 ```
 
-Para retornar um JSON da rota "status", no cabeçalho e corpo do "response" passamos parâmetros como objetos:
+Para retornar um JSON da rota "status", no cabeçalho e corpo do "response" passamos os seguintes parâmetros como objetos:
 
 ```
 const server = createServer((request, response) => {
@@ -197,10 +203,75 @@ const server = createServer((request, response) => {
 });
 ```
 
-😎 <b>Porta e HostName configurados!</b>
+Porta e HostName configurados!
 
 <a href="#topo">🔝</a>
 
 ---
 
-<h3 id="4">🔑 Criando Login</h3>
+<h3 id="4">🔑 Criando uma tela de Login</h3>
+
+Em "src" criamos uma pasta "pages" e nela um arquivo "sign-in.html".
+
+Criamos um "form" com um atributo "action" que é onde passamos a rota e um atributo "method".
+
+O "method" pode ser POST ou GET:
+
+- POST - as informações não aparecem na URL
+- GET - as informações aparecem na URL
+
+Em "action" definimos o valor "/authenticate e em "method" o valor "POST".
+
+Criamos as labes, inputs e button.
+
+Em "main.js" adicionamos dois switch case:
+
+- sign-in
+- authenticate
+
+Para carregar o html no "main.js" importamos um módulo nativo do Noje.js chamado "fs" (file system).
+
+Esse módulo tem várias funções, vamos usar uma que é de ler arquivo assincronamente (padrão).
+
+```
+import { readFile } from "fs";
+```
+
+O Node.js foi criado com a premissa de "erro first callback", onde o primeiro argumento será um erro.
+
+Usando a função "readFile" no case "sign-in":
+
+```
+readFile((error, file) => {
+  if (error) {
+    response.writeHead(500, "Can't process HTML file");
+    response.end();
+    return;
+  }
+  response.writeHead(200);
+  response.write(file);
+  response.end();
+});
+```
+
+Precisamos agora criar o caminho do arquivo e para isso vamos usar um outro módulo nativo do Node.js o "path" e sua função "resolve".
+
+```
+import { resolve } from "path";
+```
+
+Criamos uma constante para o caminho:
+
+```
+const path = resolve(__dirname, "./pages/sign-in.html");
+```
+
+Passamos a constante "path" na função "readFile":
+
+```
+readFile(path, (error, file) => {...}
+```
+
+Iniciar o servidor, passar o caminho e HTML carregado!
+
+Autenticando ao enviar os dados, para isso precisamos tratar o atributo action="authenticate" do form.
