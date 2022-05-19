@@ -51,6 +51,7 @@ Repositório com conteúdos do programa **Hiring** **Coders** **3** da **VTEX**.
 <p id="p3">✅ Semana 03</p>
 
 - [React.js](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/d1_react)
+- [GraphQL](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/d2_graphql)
 
 <h3 id="tecnologias">⚙️ Tecnologias Utilizadas</h3>
 
@@ -60,7 +61,8 @@ Repositório com conteúdos do programa **Hiring** **Coders** **3** da **VTEX**.
   <img align="center" alt="Bruno-Git" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg">
   <img align="center" alt="Bruno-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
   <img align="center" alt="Bruno-TypeScript" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg">
-  <img align="center" alt="Bruno-React" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg">                 
+  <img align="center" alt="Bruno-React" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg">
+  <img align="center" alt="Bruno-React" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg">                        
           
 </div>
 
