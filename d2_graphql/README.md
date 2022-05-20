@@ -29,7 +29,7 @@ GraphQL é uma linguagem de consumo de grafos, onde você tem controle sobre os 
 
 ---
 
-<h3 id="1">​🚀 Iniciando o Projeto - Cliente / Servidor</h3>
+<h3 id="1">​🚀 Iniciando o Projeto - Exemplo Cliente / Servidor</h3>
 
 Requisitos:
 
@@ -209,7 +209,7 @@ Porta e HostName configurados!
 
 ---
 
-<h3 id="4">🔑 Criando uma tela de Login</h3>
+<h3 id="4">🔐 Criando uma tela de Login</h3>
 
 Em "src" criamos uma pasta "pages" e nela um arquivo "sign-in.html".
 
