@@ -42,7 +42,7 @@ Vamos criar um módulo Node.js - toda aplicação é um módulo Node.js e não n
 
 Iremos usar um módulo chamado **ESM** (ECMAScript Modules) - é o sistema de módulos “mais novo” do Node.js.
 
-⚡️ 1. Criar a pasta do projeto e inicializar como um módulo, digitando:
+⚡️ 1. Criando a pasta do projeto e inicializando como um módulo, digitando:
 
 ```
 npm init
@@ -66,7 +66,7 @@ Automatizar o processo adicionado no objeto "scripts" a seguinte propriedade e v
 
 Incluir a propriedade e valor "private: true" pois não teremos pacotes e nem vamos publicar.
 
-⚡️ 2. Instalar o ESM, digitando:
+⚡️ 2. Instalando o ESM, digitando:
 
 ```
 npm i -D esm
@@ -96,11 +96,11 @@ Ambiente preparado com sucesso!
 
 <h3 id="2">🛠️ Criando o Servidor</h3>
 
-Em "main.js" importar a função "createServer" do módulo "http" que é nativo do Node.js para criar o servidor.
+Em "main.js" importamos a função "createServer" do módulo "http" que é nativo do Node.js para criarmos o servidor.
 
-Criar uma "const server" para armazenar a função e rertorná-la.
+Criando uma "const server" para armazenar a função e rertorná-la.
 
-Executar o servidor com o método "server.listen()" para ouvir as requisições e tratá-las.
+Executando o servidor com o método "server.listen()" para ouvir as requisições e tratá-las.
 
 Esse método tem outras assinaturas, mas para este projeto receberá os seguintes argumentos:
 
@@ -135,7 +135,7 @@ Esse retorno é o objeto "response" que é tratado como um Buffer pelo Node.js, 
 - corpo da mensagem
 - fechamento desse buffer de resposta
 
-Definimos um default no switch e se for passado um endereço que não seja os "cases" retorne o erro 404.
+Definimos um default no switch e se for passado um endereço que não seja os "cases" retornará o erro 404.
 
 ```
 const server = createServer((request, response) => {
@@ -161,7 +161,7 @@ Servidor criado com sucesso!
 
 <h3 id="3">🚪 Configurando Porta e HostName</h3>
 
-Para configurar usamos o objeto "process" que refere-se ao programa que está sendo executado e nele tem o atributo "env" que é um objeto com as variáveis de ambiente:
+Para configurar usamos o objeto "process" que se refere ao programa que está sendo executado e nele temos o atributo "env" que é um objeto com as variáveis de ambiente:
 
 ```
 const PORT = process.env.PORT ? parseInt(process.env.PORT) : 8000;
@@ -213,7 +213,7 @@ Porta e HostName configurados!
 
 Em "src" criamos uma pasta "pages" e nela um arquivo "sign-in.html".
 
-Criamos um "form" com um atributo "action" que é onde passamos a rota e um atributo "method".
+⚡️ 1. Criando um "form" com um atributo "action" que é onde passamos a rota e um atributo "method".
 
 O "method" pode ser POST ou GET:
 
@@ -229,7 +229,7 @@ Em "main.js" adicionamos dois switch case:
 - sign-in
 - authenticate
 
-Para carregar o html no "main.js" importamos um módulo nativo do Noje.js chamado "fs" (file system).
+⚡️ 2. Carregando o html no "main.js" importamos um módulo nativo do Noje.js chamado "fs" (file system).
 
 Esse módulo tem várias funções, vamos usar uma que é de ler arquivo assincronamente (padrão).
 
@@ -254,7 +254,7 @@ readFile((error, file) => {
 });
 ```
 
-Precisamos agora criar o caminho do arquivo e para isso vamos usar um outro módulo nativo do Node.js o "path" e sua função "resolve".
+⚡️ 3. Criando o caminho do arquivo e para isso vamos usar um outro módulo nativo do Node.js o "path" e sua função "resolve".
 
 ```
 import { resolve } from "path";
@@ -274,4 +274,77 @@ readFile(path, (error, file) => {...}
 
 Iniciar o servidor, passar o caminho e HTML carregado!
 
-Autenticando ao enviar os dados, para isso precisamos tratar o atributo action="authenticate" do form.
+⚡️ 4. Autenticando ao enviar os dados, para isso precisamos tratar o atributo action="authenticate" do form.
+
+Em switch case authenticate vamos tratar como um Buffer usando os eventos do request:
+
+```
+case "/authenticate": {
+      let data = "";
+      request.on("data", (chunk) => {
+        data += chunk;
+      });
+      request.on("end", () => {
+        console.log(data);
+        response.writeHead(200);
+        response.end();
+      });
+      break;
+    }
+```
+
+O retorno está encodado como query string (parte da URL), para tratar isso vamos usar um módulo nativo do Node.js chamado "querystring" que vai prover uma função de "parse" para interpretar essa query string.
+
+```
+import { parse } from "querystring";
+```
+
+```
+console.log(parse(data));
+```
+
+O retorno agora está formatado em um objeto e pode ser tratado conforme a necessidade.
+
+No caso desse projeto iremos supor que o login e senha está certo e vamos usar o codígo 301 no response que é como vamos redirecionar o usuário com um cabeçalho de location e uma rota "/home":
+
+```
+case "/authenticate": {
+      let data = "";
+      request.on("data", (chunk) => {
+        data += chunk;
+      });
+      request.on("end", () => {
+        const params = parse(data);
+        response.writeHead(301, {
+          Location: "/home",
+        });
+        response.end();
+      });
+      break;
+    }
+```
+
+⚡️ 5. Adicionando no switch case a rota para a página "/home" criada em "src/pages":
+
+```
+case "/home": {
+      const path = resolve(__dirname, "./pages/home.html");
+      readFile(path, (error, file) => {
+        if (error) {
+          response.writeHead(500, "Can't process HTML file");
+          response.end();
+          return;
+        }
+        response.writeHead(200);
+        response.write(file);
+        response.end();
+      });
+      break;
+    }
+```
+
+O Login é efetuado com sucesso e o browser redireciona para a página Home!
+
+<a href="#topo">🔝</a>
+
+---
