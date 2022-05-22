@@ -50,7 +50,7 @@ Vantagens do React:
 Requisitos:
 
 - [Node.js](https://nodejs.org/en/)
-  - [npm](https://www.npmjs.com/)
+- [npm](https://www.npmjs.com/)
 
 <h3 id="1">🛠️​ Instalando o React</h3>
 
@@ -86,7 +86,7 @@ São como funções JavaScript, aceitam entradas como propriedades (chamadas “
 
 **Propriedades / Props**
 
-Os props são argumentos que você passa para uma função ou classe. Como seus componentes são transformados em objetos semelhantes aos HTML pelo JSX, você passará os props como se fossem atributos do HTML. Diferente dos elementos HTML, você pode passar vários tipos de dados diferentes: strings, matrizes.
+Os props são argumentos que você passa para uma função ou classe. Como seus componentes são transformados em objetos semelhantes aos HTML pelo JSX, você passa os props como se fossem atributos do HTML. Diferente dos elementos HTML, você pode passar vários tipos de dados: strings, matrizes, etc...
 
 **Estados / States**
 
@@ -108,11 +108,11 @@ O componente React que renderiza um formulário também controla o que acontece 
 
 O react-router-dom é uma biblioteca padrão para que você consiga fazer o roteamento das páginas da sua aplicação de forma dinâmica.
 
-<h3 id="3"> ⭐ Pesquisar Perfil GitHub</h3>
+<h2 id="3"> Pesquisar Perfil GitHub 🔍​ </h2>
 
-- [Clique aqui](https://github.com/brseghese/vtex-hiring-coders-3-react-js-pesquisar-github)🔗 para acessar o repositório do projeto.
+### 🛩️ Continuação do curso com um novo projeto
 
-- [Clique aqui]()🔗 para acessar o projeto.
+Esse projeto com a continuação desse curso de React.js está no repositório **vtex-hiring-coders-3-react-pesquisar-github** - [clique aqui](https://github.com/brseghese/vtex-hiring-coders-3-react-js-pesquisar-github)🔗 para acessá-lo.
 
 <a href="#topo">🔝</a>
 
