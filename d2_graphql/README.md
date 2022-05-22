@@ -18,6 +18,7 @@
 ◽ <a href="#2">Criando o Servidor</a> <br>
 ◽ <a href="#3">Configurando Porta e HostName</a> <br>
 ◽ <a href="#4">Criando um tela de Login</a> <br>
+◽ <a href="#5">Projeto Dev Demands</a> <br>
 
 </details>
 
@@ -42,7 +43,7 @@ Vamos criar um módulo Node.js - toda aplicação é um módulo Node.js e não n
 
 Iremos usar um módulo chamado **ESM** (ECMAScript Modules) - é o sistema de módulos “mais novo” do Node.js.
 
-⚡️ 1. Criando a pasta do projeto e inicializando como um módulo, digitando:
+⚡️ 1. Criando a pasta do projeto e inicializando como um módulo:
 
 ```
 npm init
@@ -50,11 +51,11 @@ npm init
 
 Um arquivo "package.json" é criado.
 
-Setar na propriedade (entry point) "main" o valor: "src/main.js" definindo o arquivo como principal do módulo.
+Na propriedade (entry point) "main" colocar valor: "src/main.js" definindo o arquivo como principal do módulo.
 
 A propriedade keywords neste caso não é importante porque não é um pacote.
 
-Automatizar o processo adicionado no objeto "scripts" a seguinte propriedade e valor:
+Automatizando o processo adicionando no objeto "scripts" a seguinte propriedade e valor:
 
 ```
   "start": "node -r esm ."
@@ -64,7 +65,7 @@ Automatizar o processo adicionado no objeto "scripts" a seguinte propriedade e v
 - esm
 - "." é o nosso módulo / poderia ser "src/main.js"
 
-Incluir a propriedade e valor "private: true" pois não teremos pacotes e nem vamos publicar.
+Incluindo a propriedade e valor "private: true" pois não teremos pacotes e nem vamos publicar.
 
 ⚡️ 2. Instalando o ESM, digitando:
 
@@ -82,7 +83,9 @@ O esm instala o (ESM) como dependência de desenvolvimento.
 
 O objeto "devDependencies: esm" é criado no "package.json".
 
-⚡️ 3. Criar a pasta e arquivo "src/main.js", um console.log("Hello") para teste e digitar:
+⚡️ 3. Criando a pasta e arquivo "src/main.js"
+
+Testando com um console.log("Hello"):
 
 ```
 npm run start
@@ -344,6 +347,30 @@ case "/home": {
 ```
 
 O Login é efetuado com sucesso e o browser redireciona para a página Home!
+
+### ✨ Testando o Projeto Exemplo Cliente / Servidor
+
+```
+npm run start
+```
+
+Digite a URL do servidor + /sign-in
+
+Digite o email e senha
+
+Clique em enviar e o login será feito
+
+A página Home é exibida com sucesso!
+
+<a href="#topo">🔝</a>
+
+---
+
+<h2 id="5"> Dev Demands 👨‍💻​ </h2>
+
+### 🛩️ Continuação do curso com um novo projeto
+
+Esse projeto com a continuação desse curso de GraphaQL está no repositório **vtex-hiring-coders-3-graphql-dev-demands** - [clique aqui](https://github.com/brseghese/vtex-hiring-coders-3-graphql-dev-demands)🔗 para acessá-lo.
 
 <a href="#topo">🔝</a>
 
