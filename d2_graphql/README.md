@@ -16,7 +16,6 @@
 ◽ <a href="#0">O que é GraphQL</a> <br>
 ◽ <a href="#1">Iniciando o Projeto</a> <br>
 ◽ <a href="#2">Criando o Servidor</a> <br>
-◽ <a href="#3">Configurando Porta e HostName</a> <br>
 ◽ <a href="#4">Criando um tela de Login</a> <br>
 ◽ <a href="#5">Projeto Dev Demands</a> <br>
 
@@ -24,7 +23,9 @@
 
 <h3 id="0">📍​ O que é GraphQL?</h3>
 
-GraphQL é uma linguagem de consumo de grafos, onde você tem controle sobre os campos, as relações e os argumentos usados pra obtê-los. Mas não se resume a isso, também podemos fazer inserções e modificações usando a mesma sintaxe simples e intuitiva.
+GraphQL é uma linguagem de consumo de graphos, onde você tem controle sobre os dados, as relações e os argumentos usados pra obtê-los.
+
+Podemos fazer também inserções e modificações usando a mesma sintaxe simples e intuitiva.
 
 É uma **Query Language** para APIs. Podemos pensar no GraphQL como uma forma de desenvolver uma API orientado a tipos.
 
@@ -32,18 +33,20 @@ GraphQL é uma linguagem de consumo de grafos, onde você tem controle sobre os 
 
 <h3 id="1">​🚀 Iniciando o Projeto - Exemplo Cliente / Servidor</h3>
 
+Este projeto é uma base para o próximo exercício - [Dev Demands](https://github.com/brseghese/vtex-hiring-coders-3-graphql-dev-demands)🔗 - onde entraremos de fato no assunto GraphQL.
+
 Requisitos:
 
 - [Node.js](https://nodejs.org/en/)
 - [npm](https://www.npmjs.com/)
 
-Passo a passo:
+#### ✔️ Criando módulo
 
-Vamos criar um módulo Node.js - toda aplicação é um módulo Node.js e não necessariamente pacotes.
+Toda aplicação é um módulo Node.js e não necessariamente um pacote.
 
-Iremos usar um módulo chamado **ESM** (ECMAScript Modules) - é o sistema de módulos “mais novo” do Node.js.
+Usando o módulo **ESM** (ECMAScript Modules) - um sistema de módulo assíncrono e, portanto, oferece suporte a operações assíncronas ao carregar o módulo, enquanto o CJS é carregado de forma síncrona e, portanto, não tem suporte await.
 
-⚡️ 1. Criando a pasta do projeto e inicializando como um módulo:
+#### ✔️ Inicializando o módulo
 
 ```
 npm init
@@ -51,47 +54,45 @@ npm init
 
 Um arquivo "package.json" é criado.
 
-Na propriedade (entry point) "main" colocar valor: "src/main.js" definindo o arquivo como principal do módulo.
-
-A propriedade keywords neste caso não é importante porque não é um pacote.
-
-Automatizando o processo adicionando no objeto "scripts" a seguinte propriedade e valor:
+Definindo o arquivo principal do módulo:
 
 ```
-  "start": "node -r esm ."
+"main": "src/main.js",
+```
+
+Removendo a propriedade keywords pois não estamos usando um pacote.
+
+Automatizando o processo adicionando:
+
+```
+  "start": "node -r esm .",
 ```
 
 - -r é para rodar mais de um script
-- esm
+- esm (ECMAScript Modules)
 - "." é o nosso módulo / poderia ser "src/main.js"
 
-Incluindo a propriedade e valor "private: true" pois não teremos pacotes e nem vamos publicar.
+Privando o pacote pois não iremos publicar:
 
-⚡️ 2. Instalando o ESM, digitando:
+```
+"private: true",
+```
+
+#### ✔️ Instalando o ESM (ECMAScript Modules)
 
 ```
 npm i -D esm
 ```
 
 - i = abreviação de install
-- -D = abreviação --save-dev
+- -D = abreviação --save-dev (dependência de desenvolvimento)
 - esm = ECMAScript Modules
 
-O save-dev faz com que o módulo instalado seja uma dependência de desenvolvimento.
-
-O esm instala o (ESM) como dependência de desenvolvimento.
-
-O objeto "devDependencies: esm" é criado no "package.json".
-
-⚡️ 3. Criando a pasta e arquivo "src/main.js"
-
-Testando com um console.log("Hello"):
+#### ✔️ Testando o ambiente
 
 ```
 npm run start
 ```
-
-Ambiente preparado com sucesso!
 
 <a href="#topo">🔝</a>
 
@@ -99,38 +100,25 @@ Ambiente preparado com sucesso!
 
 <h3 id="2">🛠️ Criando o Servidor</h3>
 
-Em "main.js" importamos a função "createServer" do módulo "http" que é nativo do Node.js para criarmos o servidor.
-
-Criando uma "const server" para armazenar a função e rertorná-la.
+Importando "createServer" do módulo "http" que é nativo do Node.js para criarmos o servidor.
 
 Executando o servidor com o método "server.listen()" para ouvir as requisições e tratá-las.
 
 Esse método tem outras assinaturas, mas para este projeto receberá os seguintes argumentos:
 
 - porta = 8000
-- host name = 127.0.0.1 - IP (localhost)
+- HostName = 127.0.0.1 - IP (localhost)
 - função (callback) = executa assim que o "server.listen()" inicializa
-
-```
-import { createServer } from "http";
-const server = createServer();
-
-server.listen(8000, "127.0.0.1", () => {
-  console.log("Server is listening at http://127.0.0.1:8000");
-});
-```
 
 O "createServe()" recebe um callback que é para tratar as requisições.
 
 Esse callback recebe dois objetos de parâmetros, o primeiro é o "request" e o segundo é o "response".
 
-Roteamento é quando temos mais de uma forma de acessar um API.
+O "request" tem um atributo que é a URL e é justamente o roteamento.
 
-O "request" dá um atributo que é a URL e é justamente esse roteamento.
+Criando rota "status" que irá dizer se a API está funcionado e vamos retornar.
 
-Fazemos um switch case no "request" e se for verdadeiro o nome da rota ele irá retornar.
-
-No caso estamos criando uma rota chamada "status", que irá dizer se a API está funcionado e vamos retornar.
+Fazemos um switch case no "request" e se for verdadeiro o nome da rota ele retorna.
 
 Esse retorno é o objeto "response" que é tratado como um Buffer pelo Node.js, então temos que lidar com uma certa continuidade e tem uma ordem de uso (parecido com o http):
 
@@ -138,75 +126,21 @@ Esse retorno é o objeto "response" que é tratado como um Buffer pelo Node.js, 
 - corpo da mensagem
 - fechamento desse buffer de resposta
 
-Definimos um default no switch e se for passado um endereço que não seja os "cases" retornará o erro 404.
+Definindo um default no switch e se for passado um endereço que não seja os "cases" retornará o erro 404.
 
-```
-const server = createServer((request, response) => {
-  switch (request.url) {
-    case "/status": {
-      response.writeHead(200);
-      response.write("Okay");
-      response.end();
-    }
-    default: {
-      response.writeHead(404, "Service not found");
-      response.end();
-    }
-  }
-});
-```
+#### ✔️ Configurando Porta e HostName
 
-Servidor criado com sucesso!
+Para configurar usamos o objeto "process" que se refere ao programa que está sendo executado e nele temos o atributo "env" que é um objeto com as variáveis de ambiente.
 
-<a href="#topo">🔝</a>
-
----
-
-<h3 id="3">🚪 Configurando Porta e HostName</h3>
-
-Para configurar usamos o objeto "process" que se refere ao programa que está sendo executado e nele temos o atributo "env" que é um objeto com as variáveis de ambiente:
-
-```
-const PORT = process.env.PORT ? parseInt(process.env.PORT) : 8000;
-const HOSTNAME = process.env.HOSTNAME || "127.0.0.1";
-
-server.listen(PORT, HOSTNAME, () => {
-  console.log(`Server is listening at http://${HOSTNAME}:${PORT}`);
-});
-```
-
-Testando a porta, digitando:
+#### ✔️ Testando porta e HostName
 
 ```
 PORT=3000 npm run start
 ```
 
-Para retornar um JSON da rota "status", no cabeçalho e corpo do "response" passamos os seguintes parâmetros como objetos:
+No cabeçalho e corpo do "response" passamos o objeto como parâmetro.
 
-```
-const server = createServer((request, response) => {
-  switch (request.url) {
-    case "/status": {
-      response.writeHead(200, {
-        "Content-Type": "application/json",
-      });
-      response.write(
-        JSON.stringify({
-          status: "Okay",
-        })
-      );
-      response.end();
-      break;
-    }
-    default: {
-      response.writeHead(404, "Service not found");
-      response.end();
-    }
-  }
-});
-```
-
-Porta e HostName configurados!
+Um JSON da rota "status" é retornado.
 
 <a href="#topo">🔝</a>
 
@@ -214,151 +148,59 @@ Porta e HostName configurados!
 
 <h3 id="4">🔐 Criando uma tela de Login</h3>
 
-Em "src" criamos uma pasta "pages" e nela um arquivo "sign-in.html".
+Criando arquivo "sign-in.html" em "src/pages/".
 
-⚡️ 1. Criando um "form" com um atributo "action" que é onde passamos a rota e um atributo "method".
+Criando um "form" no HTML.
+
+Definindo atributo "action" que é onde passamos a rota "/authenticate". e um atributo "method".
+
+Definindo atributo "method" passando o valor "POST".
 
 O "method" pode ser POST ou GET:
 
 - POST - as informações não aparecem na URL
 - GET - as informações aparecem na URL
 
-Em "action" definimos o valor "/authenticate e em "method" o valor "POST".
-
-Criamos as labes, inputs e button.
+Criando as labes, inputs e button.
 
 Em "main.js" adicionamos dois switch case:
 
 - sign-in
 - authenticate
 
-⚡️ 2. Carregando o html no "main.js" importamos um módulo nativo do Noje.js chamado "fs" (file system).
+Carregando o html no "main.js" importando um módulo nativo do Noje.js chamado "fs" (file system).
 
-Esse módulo tem várias funções, vamos usar uma que é de ler arquivo assincronamente (padrão).
-
-```
-import { readFile } from "fs";
-```
+Esse módulo tem várias funções, iremos usar uma de ler arquivos assincronamente.
 
 O Node.js foi criado com a premissa de "erro first callback", onde o primeiro argumento será um erro.
 
-Usando a função "readFile" no case "sign-in":
+Usando a função "readFile" no case "sign-in".
 
-```
-readFile((error, file) => {
-  if (error) {
-    response.writeHead(500, "Can't process HTML file");
-    response.end();
-    return;
-  }
-  response.writeHead(200);
-  response.write(file);
-  response.end();
-});
-```
+Criando o caminho do arquivo usando o módulo nativo do Node.js "path" e sua função "resolve".
 
-⚡️ 3. Criando o caminho do arquivo e para isso vamos usar um outro módulo nativo do Node.js o "path" e sua função "resolve".
+Passando o caminho "path" na função "readFile".
 
-```
-import { resolve } from "path";
-```
+Tratando o atributo action="authenticate" do form para autenticar ao enviar os dados.
 
-Criamos uma constante para o caminho:
+Em switch case "/authenticate" vamos tratar como um Buffer usando os eventos do request.
 
-```
-const path = resolve(__dirname, "./pages/sign-in.html");
-```
-
-Passamos a constante "path" na função "readFile":
-
-```
-readFile(path, (error, file) => {...}
-```
-
-Iniciar o servidor, passar o caminho e HTML carregado!
-
-⚡️ 4. Autenticando ao enviar os dados, para isso precisamos tratar o atributo action="authenticate" do form.
-
-Em switch case authenticate vamos tratar como um Buffer usando os eventos do request:
-
-```
-case "/authenticate": {
-      let data = "";
-      request.on("data", (chunk) => {
-        data += chunk;
-      });
-      request.on("end", () => {
-        console.log(data);
-        response.writeHead(200);
-        response.end();
-      });
-      break;
-    }
-```
-
-O retorno está encodado como query string (parte da URL), para tratar isso vamos usar um módulo nativo do Node.js chamado "querystring" que vai prover uma função de "parse" para interpretar essa query string.
-
-```
-import { parse } from "querystring";
-```
-
-```
-console.log(parse(data));
-```
+O retorno está encodado como "Query String" (parte da URL), para tratar isso vamos usar o módulo nativo do Node.js chamado "querystring" que vai prover uma função de "parse" para interpretá-la.
 
 O retorno agora está formatado em um objeto e pode ser tratado conforme a necessidade.
 
-No caso desse projeto iremos supor que o login e senha está certo e vamos usar o codígo 301 no response que é como vamos redirecionar o usuário com um cabeçalho de location e uma rota "/home":
+No caso desse projeto iremos supor que o login e senha esteja certo e vamos usar o codígo 301 no response que é como vamos redirecionar o usuário com um cabeçalho de location e uma rota para "/home".
 
-```
-case "/authenticate": {
-      let data = "";
-      request.on("data", (chunk) => {
-        data += chunk;
-      });
-      request.on("end", () => {
-        const params = parse(data);
-        response.writeHead(301, {
-          Location: "/home",
-        });
-        response.end();
-      });
-      break;
-    }
-```
-
-⚡️ 5. Adicionando no switch case a rota para a página "/home" criada em "src/pages":
-
-```
-case "/home": {
-      const path = resolve(__dirname, "./pages/home.html");
-      readFile(path, (error, file) => {
-        if (error) {
-          response.writeHead(500, "Can't process HTML file");
-          response.end();
-          return;
-        }
-        response.writeHead(200);
-        response.write(file);
-        response.end();
-      });
-      break;
-    }
-```
-
-O Login é efetuado com sucesso e o browser redireciona para a página Home!
-
-### ✨ Testando o Projeto Exemplo Cliente / Servidor
+### ✔️ Testando o Projeto Exemplo Cliente / Servidor
 
 ```
 npm run start
 ```
 
-Digite a URL do servidor + /sign-in
+Digite a URL do servidor + /sign-in.
 
-Digite o email e senha
+Digite o email e senha.
 
-Clique em enviar e o login será feito
+Clique em enviar e o login será feito.
 
 A página Home é exibida com sucesso!
 
@@ -368,9 +210,11 @@ A página Home é exibida com sucesso!
 
 <h2 id="5"> Dev Demands 👨‍💻​ </h2>
 
-### 🛩️ Continuação do curso com um novo projeto
+### Continuação do curso com um novo projeto. 🚀
 
-Esse projeto com a continuação desse curso de GraphaQL está no repositório **vtex-hiring-coders-3-graphql-dev-demands** - [clique aqui](https://github.com/brseghese/vtex-hiring-coders-3-graphql-dev-demands)🔗 para acessá-lo.
+O novo projeto - Dev Demands - está vinculado ao repositório **vtex-hiring-coders-3-graphql-dev-demands** - [clique aqui](https://github.com/brseghese/vtex-hiring-coders-3-graphql-dev-demands)🔗 para acessá-lo.
+
+Nele iremos aprofundar os conceitos de GraphQL.
 
 <a href="#topo">🔝</a>
 
