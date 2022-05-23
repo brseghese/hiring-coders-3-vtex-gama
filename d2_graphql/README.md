@@ -13,11 +13,10 @@
 <details>
 <summary>Clique para Navegar 🔽</summary>
 
-◽ <a href="#0">O que é GraphQL</a> <br>
 ◽ <a href="#1">Iniciando o Projeto</a> <br>
 ◽ <a href="#2">Criando o Servidor</a> <br>
-◽ <a href="#4">Criando um tela de Login</a> <br>
-◽ <a href="#5">Projeto Dev Demands</a> <br>
+◽ <a href="#3">Criando um tela de Login</a> <br>
+◽ <a href="#4">Projeto Dev Demands</a> <br>
 
 </details>
 
@@ -146,7 +145,7 @@ Um JSON da rota "status" é retornado.
 
 ---
 
-<h3 id="4">🔐 Criando uma tela de Login</h3>
+<h3 id="3">🔐 Criando uma tela de Login</h3>
 
 Criando arquivo "sign-in.html" em "src/pages/".
 
@@ -161,22 +160,15 @@ O "method" pode ser POST ou GET:
 - POST - as informações não aparecem na URL
 - GET - as informações aparecem na URL
 
-Criando as labes, inputs e button.
-
-Em "main.js" adicionamos dois switch case:
-
-- sign-in
-- authenticate
-
 Carregando o html no "main.js" importando um módulo nativo do Noje.js chamado "fs" (file system).
 
-Esse módulo tem várias funções, iremos usar uma de ler arquivos assincronamente.
+Esse módulo tem várias funções, iremos usar a função de ler arquivos assincronamente.
 
 O Node.js foi criado com a premissa de "erro first callback", onde o primeiro argumento será um erro.
 
-Usando a função "readFile" no case "sign-in".
-
 Criando o caminho do arquivo usando o módulo nativo do Node.js "path" e sua função "resolve".
+
+Usando a função "readFile" no case "sign-in".
 
 Passando o caminho "path" na função "readFile".
 
@@ -190,7 +182,7 @@ O retorno agora está formatado em um objeto e pode ser tratado conforme a neces
 
 No caso desse projeto iremos supor que o login e senha esteja certo e vamos usar o codígo 301 no response que é como vamos redirecionar o usuário com um cabeçalho de location e uma rota para "/home".
 
-### ✔️ Testando o Projeto Exemplo Cliente / Servidor
+#### ✔️ Testando o Projeto Exemplo Cliente / Servidor
 
 ```
 npm run start
@@ -208,7 +200,7 @@ A página Home é exibida com sucesso!
 
 ---
 
-<h2 id="5"> Dev Demands 👨‍💻​ </h2>
+<h2 id="4"> Dev Demands 👨‍💻​ </h2>
 
 ### Continuação do curso com um novo projeto. 🚀
 
