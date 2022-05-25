@@ -23,6 +23,7 @@ Repositório com conteúdos do programa **Hiring** **Coders** **3** da **VTEX**.
 <li>02/05/2022 a 08/05/2002 - <a href="#p1">Semana 01</a></li>
 <li>09/05/2022 a 15/05/2002 - <a href="#p2">Semana 02</a></li>
 <li>16/05/2022 a 22/05/2002 - <a href="#p3">Semana 03</a></li>
+<li>23/05/2022 a 29/05/2002 - <a href="#p4">Semana 04</a></li>
 </ul>
 
 <h3 id="modulos">🎯​ Módulos</h3>
@@ -35,7 +36,6 @@ Repositório com conteúdos do programa **Hiring** **Coders** **3** da **VTEX**.
 - [Testes](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/a4_testes)
 - [HTML](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/a5_html)
 - [CSS](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/a6_css)
-- Soft Skills
 
 <p id="p1">✅ Semana 01</p>
 
@@ -53,16 +53,22 @@ Repositório com conteúdos do programa **Hiring** **Coders** **3** da **VTEX**.
 - [React.js](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/d1_react)
 - [GraphQL](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/d2_graphql)
 
+<p id="p4">✅ Semana 04</p>
+
+- [Node.js](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/e1_node)
+
 <h3 id="tecnologias">⚙️ Tecnologias Utilizadas</h3>
 
 <div style="display: inline_block">
-  <img align="center" alt="Bruno-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-  <img align="center" alt="Bruno-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-  <img align="center" alt="Bruno-Git" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg">
-  <img align="center" alt="Bruno-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
-  <img align="center" alt="Bruno-TypeScript" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg">
-  <img align="center" alt="Bruno-React" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg">
-  <img align="center" alt="Bruno-React" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg">                        
+  <img align="center" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+  <img align="center" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+  <img align="center" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg">
+  <img align="center" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+  <img align="center" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg">
+  <img align="center" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg">
+  <img align="center" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg"> 
+  <img align="center" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"> 
+                  
           
 </div>
 

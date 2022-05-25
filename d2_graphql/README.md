@@ -145,7 +145,7 @@ Um JSON da rota "status" é retornado.
 
 ---
 
-<h3 id="3">🔐 Criando uma tela de Login</h3>
+<h3 id="3">💻 Criando uma tela de Login</h3>
 
 Criando arquivo "sign-in.html" em "src/pages/".
 
@@ -202,11 +202,18 @@ A página Home é exibida com sucesso!
 
 <h2 id="4"> Dev Demands 👨‍💻​ </h2>
 
-### Continuação do curso com um novo projeto. 🚀
+#### Continuação do Curso GraphQL. 🚀
 
-O novo projeto - Dev Demands - está vinculado ao repositório **vtex-hiring-coders-3-graphql-dev-demands** - [clique aqui](https://github.com/brseghese/vtex-hiring-coders-3-graphql-dev-demands)🔗 para acessá-lo.
+[Clique aqui](https://github.com/brseghese/vtex-hiring-coders-3-graphql-dev-demands)🔗 para acessar o repositório do projeto.
 
-Nele iremos aprofundar os conceitos de GraphQL.
+O desenvolvimento do projeto foi dividido:
+
+- Back-end - Apollo Server GraphQL
+- Front-end - React.js
+
+O Back-end foi desenvolvido com toda a infraestrutura de dados em GraphQL manipulando um arquivo JSON.
+
+O Front-end foi desenvolvido toda a interface em React.js para receber e editar os dados do Back-end.
 
 <a href="#topo">🔝</a>
 

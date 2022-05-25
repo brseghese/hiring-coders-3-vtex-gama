@@ -9,19 +9,21 @@
 
 ---
 
-[![image](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://pt-br.reactjs.org/)
-
 <details>
 <summary>Clique para Navegar 🔽</summary>
 
-◽ <a href="#0">O que é React</a> <br>
-◽ <a href="#1">Instalando o React</a> <br>
-◽ <a href="#2">Fundamentos</a> <br>
-◽ <a href="#3">Projeto Pesquisar Perfil GitHub</a> <br>
+- <a href="#0">Introdução ao React.js</a> <br>
+- <a href="#1">Preparando o ambiente do React.js</a> <br>
+- <a href="#2">Fundamentos</a> <br>
+- <a href="#3">Projeto Pesquisar GitHub</a> <br>
 
 </details>
 
-<h3 id="0">🚀​ O que é React?</h3>
+---
+
+[![image](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://pt-br.reactjs.org/)
+
+<h3 id="0">📍​ Introdução ao React.js</h3>
 
 [Tutorial: Introdução ao React](https://pt-br.reactjs.org/tutorial/tutorial.html)
 
@@ -52,19 +54,22 @@ Requisitos:
 - [Node.js](https://nodejs.org/en/)
 - [npm](https://www.npmjs.com/)
 
-<h3 id="1">🛠️​ Instalando o React</h3>
+---
 
-⚡ 1. Digitar na pasta do projeto:
+<h3 id="1">🛠️​ Preparando o ambiente do React.js</h3>
+
+[Create React App](https://create-react-app.dev/)
+
+#### ✔️ Instalando
 
 ```
 npx create-react-app nome_do_projeto
 ```
 
-- [Create React App](https://create-react-app.dev/)
-- serão feitas todas as configurações necessárias
-- npx executa um comando de uma fonte externa sem necessidade de instalação local
+- Serão feitas todas as configurações necessárias
+- O `npx` executa um comando de instalação de uma fonte externa
 
-⚡ 2. Executando o projeto:
+#### ✔️ Executando
 
 ```
 cd nome_do_projeto
@@ -74,7 +79,7 @@ cd nome_do_projeto
 npm start
 ```
 
-<h3 id="2"> 📌 Fundamentos</h3>
+<h3 id="2">📘 Fundamentos</h3>
 
 **Componentes / Components**
 
@@ -108,11 +113,15 @@ O componente React que renderiza um formulário também controla o que acontece 
 
 O react-router-dom é uma biblioteca padrão para que você consiga fazer o roteamento das páginas da sua aplicação de forma dinâmica.
 
+<a href="#topo">🔝</a>
+
+---
+
 <h2 id="3"> Pesquisar Perfil GitHub 🔍​ </h2>
 
-### 🛩️ Continuação do curso com um novo projeto
+#### Continuação do Curso React.js. 🚀
 
-Esse projeto com a continuação desse curso de React.js está no repositório **vtex-hiring-coders-3-react-pesquisar-github** - [clique aqui](https://github.com/brseghese/vtex-hiring-coders-3-react-js-pesquisar-github)🔗 para acessá-lo.
+[Clique aqui](https://github.com/brseghese/vtex-hiring-coders-3-react-js-pesquisar-github)🔗 para acessar o repositório do projeto.
 
 <a href="#topo">🔝</a>
 
