@@ -85,9 +85,10 @@
 - <a href="https://github.com/brseghese/hiring-coders-3-vtex-gama">Acessar</a>🔗 o código fonte pelo GitHub.
 - <a href="https://github.com/brseghese/hiring-coders-3-vtex-gama/archive/refs/heads/main.zip">Download</a>🔗 do código fonte no formato zip.<br>
 
+Clone o repositório
+
 ```bash
-# Clone o repositório
-$ git clone https://github.com/brseghese/hiring-coders-3-vtex-gama.git
+git clone https://github.com/brseghese/hiring-coders-3-vtex-gama.git
 ```
 
 ---
