@@ -1,6 +1,6 @@
 # VTEX - Programa Hiring Coders #3 🚀
 
-Repositório com conteúdos do programa **Hiring** **Coders** **3** da **VTEX**.
+Repositório com conteúdos do programa **Hiring Coders 3** da **VTEX**.
 
 <details>
 <summary>Clique para Navegar 🔽</summary>
