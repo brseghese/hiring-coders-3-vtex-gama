@@ -1,6 +1,7 @@
-# VTEX - Programa Hiring Coders #3 🚀
-
-Repositório com conteúdos do programa **Hiring Coders 3** da **VTEX**.
+<p align="center" id='top'>
+    <img src="./a0_assets/banner.png">
+    <h2 align="center"> Hiring Coders #3 ☝ </h2>
+</p>
 
 <details>
 <summary>Clique para Navegar 🔽</summary>
@@ -14,6 +15,8 @@ Repositório com conteúdos do programa **Hiring Coders 3** da **VTEX**.
 
 </details>
 
+---
+
 <h3 id="cronograma">📆 Cronograma</h3>
 
 **Fase 01**
@@ -26,9 +29,11 @@ Repositório com conteúdos do programa **Hiring Coders 3** da **VTEX**.
 <li>23/05/2022 a 29/05/2022 - <a href="#p4">Semana 04</a></li>
 </ul>
 
+---
+
 <h3 id="modulos">🎯​ Módulos</h3>
 
-<p id="p0">✅ Aquecimento</p>
+<p id="p0"> [x] Aquecimento</p>
 
 - [Metodologias Ágeis](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/a1_metodologias_ageis)
 - [Boas Práticas](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/a2_boas_praticas)
@@ -37,25 +42,27 @@ Repositório com conteúdos do programa **Hiring Coders 3** da **VTEX**.
 - [HTML](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/a5_html)
 - [CSS](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/a6_css)
 
-<p id="p1">✅ Semana 01</p>
+<p id="p1"> [x] Semana 01</p>
 
 - [Introdução ao Desenvolvimento](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/b1_introducao_desenvolvimento)
 - [Lógica de Programação](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/b2_logica_programacao)
 - [GIT & GitHub](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/b3_git)
 
-<p id="p2">✅ Semana 02</p>
+<p id="p2"> [x] Semana 02</p>
 
 - [JavaScript](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/c1_javascript)
 - [TypeScript](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/c2_typescript)
 
-<p id="p3">✅ Semana 03</p>
+<p id="p3"> [x] Semana 03</p>
 
 - [React.js](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/d1_react)
 - [GraphQL](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/d2_graphql)
 
-<p id="p4">✅ Semana 04</p>
+<p id="p4"> [ ] Semana 04</p>
 
 - [Node.js](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/e1_node)
+
+---
 
 <h3 id="tecnologias">⚙️ Tecnologias Utilizadas</h3>
 
@@ -67,22 +74,29 @@ Repositório com conteúdos do programa **Hiring Coders 3** da **VTEX**.
   <img align="center" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg">
   <img align="center" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg">
   <img align="center" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg"> 
-  <img align="center" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"> 
-                  
-          
+  <img align="center" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg">
+
+---
+
 </div>
 
 <h3 id="acessar-projeto">📁 Acessar Projeto</h3>
 
-◽ <a href="https://github.com/brseghese/vtex-hiring-coders-3">Acessar</a>🔗 o código fonte pelo GitHub. <br>
-◽ <a href="https://github.com/brseghese/vtex-hiring-coders-3/archive/refs/heads/main.zip">Download</a>🔗 do código fonte no formato zip.<br>
-◽ Clonar o repositório ultilizando Git Bash + o comando:
+- <a href="https://github.com/brseghese/hiring-coders-3-vtex-gama">Acessar</a>🔗 o código fonte pelo GitHub.
+- <a href="https://github.com/brseghese/hiring-coders-3-vtex-gama/archive/refs/heads/main.zip">Download</a>🔗 do código fonte no formato zip.<br>
 
-       $ git clone https://github.com/brseghese/vtex-hiring-coders-3.git
+```bash
+# Clone o repositório
+$ git clone https://github.com/brseghese/hiring-coders-3-vtex-gama.git
+```
+
+---
 
 <h3 id="status">📌 Status do Curso</h3>
 
 Cursando. 👓
+
+---
 
 <h3 id="autor">✒️ Autor</h3>
 
