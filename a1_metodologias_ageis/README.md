@@ -1,6 +1,6 @@
 <h1 id="0"> Metodologias Ágeis 🎯​​</h1>
 
-🔙 [Voltar Página Inicial](https://github.com/brseghese/vtex-hiring-coders-3)
+🔙 [Voltar Página Inicial](https://github.com/brseghese/hiring-coders-3-vtex-gama)
 
 <h3>📚 Material de Apoio</h3>
 

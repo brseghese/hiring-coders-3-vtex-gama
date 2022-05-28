@@ -1,6 +1,6 @@
 <h1 id="topo">GraphQL <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg" width="30px"/></h1>
 
-🔙 [Voltar Página Inicial](https://github.com/brseghese/vtex-hiring-coders-3)
+🔙 [Voltar Página Inicial](https://github.com/brseghese/hiring-coders-3-vtex-gama)
 
 <h3> 📚 Material de Apoio</h3>
 
