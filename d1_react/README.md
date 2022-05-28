@@ -15,7 +15,7 @@
 - <a href="#0">Introdução ao React.js</a> <br>
 - <a href="#1">Preparando o ambiente do React.js</a> <br>
 - <a href="#2">Fundamentos</a> <br>
-- <a href="#3">Projeto Pesquisar GitHub</a> <br>
+- <a href="#3">Projeto - Search GitHub User</a> <br>
 
 </details>
 
@@ -117,11 +117,11 @@ O react-router-dom é uma biblioteca padrão para que você consiga fazer o rote
 
 ---
 
-<h2 id="3"> Pesquisar Perfil GitHub 🔍​ </h2>
+<h2 id="3"> Projeto - Search GitHub User 🔍​ </h2>
 
 #### Continuação do Curso React.js. 🚀
 
-[Clique aqui](https://github.com/brseghese/vtex-hiring-coders-3-react-js-pesquisar-github)🔗 para acessar o repositório do projeto.
+[Clique aqui](https://github.com/brseghese/hc3-search-github-user)🔗 para acessar o repositório do projeto.
 
 <a href="#topo">🔝</a>
 

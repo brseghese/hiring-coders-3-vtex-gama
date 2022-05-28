@@ -16,7 +16,7 @@
 ◽ <a href="#1">Iniciando o Projeto</a> <br>
 ◽ <a href="#2">Criando o Servidor</a> <br>
 ◽ <a href="#3">Criando um tela de Login</a> <br>
-◽ <a href="#4">Projeto Dev Demands</a> <br>
+◽ <a href="#4">Projeto - Dev Demands</a> <br>
 
 </details>
 
@@ -32,7 +32,7 @@ Podemos fazer também inserções e modificações usando a mesma sintaxe simple
 
 <h3 id="1">​🚀 Iniciando o Projeto - Exemplo Cliente / Servidor</h3>
 
-Este projeto é uma base para o próximo exercício - [Dev Demands](https://github.com/brseghese/vtex-hiring-coders-3-graphql-dev-demands)🔗 - onde entraremos de fato no assunto GraphQL.
+Este projeto é uma base para o próximo exercício - [Dev Demands](https://github.com/brseghese/hc3-dev-demands)🔗 - onde entraremos de fato no assunto GraphQL.
 
 Requisitos:
 
@@ -182,7 +182,7 @@ O retorno agora está formatado em um objeto e pode ser tratado conforme a neces
 
 No caso desse projeto iremos supor que o login e senha esteja certo e vamos usar o codígo 301 no response que é como vamos redirecionar o usuário com um cabeçalho de location e uma rota para "/home".
 
-#### ✔️ Testando o Projeto Exemplo Cliente / Servidor
+#### ✔️ Testando o Projeto - Exemplo Cliente / Servidor
 
 ```
 npm run start
@@ -204,7 +204,7 @@ A página Home é exibida com sucesso!
 
 #### Continuação do Curso GraphQL. 🚀
 
-[Clique aqui](https://github.com/brseghese/vtex-hiring-coders-3-graphql-dev-demands)🔗 para acessar o repositório do projeto.
+[Clique aqui](https://github.com/brseghese/hc3-dev-demands)🔗 para acessar o repositório do projeto.
 
 O desenvolvimento do projeto foi dividido:
 
