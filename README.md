@@ -33,7 +33,7 @@
 
 <h3 id="modulos">🎯​ Módulos</h3>
 
-<p id="p0"> [x] Aquecimento</p>
+<p id="p0">✔️ Aquecimento</p>
 
 - [Metodologias Ágeis](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/a1_metodologias_ageis)
 - [Boas Práticas](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/a2_boas_praticas)
@@ -42,23 +42,23 @@
 - [HTML](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/a5_html)
 - [CSS](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/a6_css)
 
-<p id="p1"> [x] Semana 01</p>
+<p id="p1">✔️ Semana 01</p>
 
 - [Introdução ao Desenvolvimento](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/b1_introducao_desenvolvimento)
 - [Lógica de Programação](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/b2_logica_programacao)
 - [GIT & GitHub](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/b3_git)
 
-<p id="p2"> [x] Semana 02</p>
+<p id="p2">✔️ Semana 02</p>
 
 - [JavaScript](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/c1_javascript)
 - [TypeScript](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/c2_typescript)
 
-<p id="p3"> [x] Semana 03</p>
+<p id="p3">✔️ Semana 03</p>
 
 - [React.js](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/d1_react)
 - [GraphQL](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/d2_graphql)
 
-<p id="p4"> [ ] Semana 04</p>
+<p id="p4">✔️ Semana 04</p>
 
 - [Node.js](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/e1_node)
 
@@ -82,10 +82,9 @@
 
 <h3 id="acessar-projeto">📁 Acessar Projeto</h3>
 
-- <a href="https://github.com/brseghese/hiring-coders-3-vtex-gama">Acessar</a>🔗 o código fonte pelo GitHub.
-- <a href="https://github.com/brseghese/hiring-coders-3-vtex-gama/archive/refs/heads/main.zip">Download</a>🔗 do código fonte no formato zip.<br>
-
-Clone o repositório
+- <a href="https://github.com/brseghese/hiring-coders-3-vtex-gama">Acessar</a>🔗 o código fonte pelo GitHub
+- <a href="https://github.com/brseghese/hiring-coders-3-vtex-gama/archive/refs/heads/main.zip">Download</a>🔗 do código fonte no formato zip
+- Clone o repositório 🔽
 
 ```bash
 git clone https://github.com/brseghese/hiring-coders-3-vtex-gama.git
@@ -95,7 +94,7 @@ git clone https://github.com/brseghese/hiring-coders-3-vtex-gama.git
 
 <h3 id="status">📌 Status do Curso</h3>
 
-Cursando. 👓
+Cursando... 👓
 
 ---
 
