@@ -20,10 +20,10 @@ Repositório com conteúdos do programa **Hiring** **Coders** **3** da **VTEX**.
 
 <ul>
 <li>26/04/2022 a 01/05/2022 - <a href="#p0">Aquecimento</a></li>
-<li>02/05/2022 a 08/05/2002 - <a href="#p1">Semana 01</a></li>
-<li>09/05/2022 a 15/05/2002 - <a href="#p2">Semana 02</a></li>
-<li>16/05/2022 a 22/05/2002 - <a href="#p3">Semana 03</a></li>
-<li>23/05/2022 a 29/05/2002 - <a href="#p4">Semana 04</a></li>
+<li>02/05/2022 a 08/05/2022 - <a href="#p1">Semana 01</a></li>
+<li>09/05/2022 a 15/05/2022 - <a href="#p2">Semana 02</a></li>
+<li>16/05/2022 a 22/05/2022 - <a href="#p3">Semana 03</a></li>
+<li>23/05/2022 a 29/05/2022 - <a href="#p4">Semana 04</a></li>
 </ul>
 
 <h3 id="modulos">🎯​ Módulos</h3>
