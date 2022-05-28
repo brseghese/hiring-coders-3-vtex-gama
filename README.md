@@ -5,12 +5,12 @@ Repositório com conteúdos do programa **Hiring** **Coders** **3** da **VTEX**.
 <details>
 <summary>Clique para Navegar 🔽</summary>
 
-◽ <a href="#cronograma">Cronograma</a> <br>
-◽ <a href="#modulos">Módulos</a> <br>
-◽ <a href="#tecnologias">Tecnologias</a> <br>
-◽ <a href="#acessar-projeto">Acessar Projeto</a> <br>
-◽ <a href="#status">Status do Curso</a> <br>
-◽ <a href="#autor">Autor</a> <br>
+- <a href="#cronograma">Cronograma</a>
+- <a href="#modulos">Módulos</a>
+- <a href="#tecnologias">Tecnologias</a>
+- <a href="#acessar-projeto">Acessar Projeto</a>
+- <a href="#status">Status do Curso</a>
+- <a href="#autor">Autor</a>
 
 </details>
 
