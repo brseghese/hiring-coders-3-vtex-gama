@@ -218,3 +218,7 @@ O Front-end foi desenvolvido toda a interface em React.js para receber e editar 
 <a href="#topo">🔝</a>
 
 ---
+
+> Desenvolvido com ❤️ por **Bruno Seghese**
+
+---

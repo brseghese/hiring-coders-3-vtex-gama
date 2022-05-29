@@ -126,3 +126,9 @@ Publicando o projeto do repositório:
 - pages
 - source -> selecionar a branch que deseja publicar
 - save
+
+---
+
+> Desenvolvido com ❤️ por **Bruno Seghese**
+
+---

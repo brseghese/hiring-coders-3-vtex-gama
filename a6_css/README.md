@@ -34,3 +34,9 @@ Cascading Style Sheet — Folha de Estilo em Cascata
 - [ColorSpace](https://mycolor.space/)
 - [Google Fonts](https://fonts.google.com/)
 - [Animista](https://animista.net/)
+
+---
+
+> Desenvolvido com ❤️ por **Bruno Seghese**
+
+---

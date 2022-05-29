@@ -50,3 +50,9 @@ Loops.
 ### 🔗​ Links Úteis
 
 [beecrowd](https://www.beecrowd.com.br/judge/pt)
+
+---
+
+> Desenvolvido com ❤️ por **Bruno Seghese**
+
+---

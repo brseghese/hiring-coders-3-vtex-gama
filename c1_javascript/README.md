@@ -82,3 +82,9 @@ Requisitos:
 [Capivara JS](https://capivarajs.github.io/#/)🔗 - Compilador para Web Components
 
 <a href="#topo">🔝</a>
+
+---
+
+> Desenvolvido com ❤️ por **Bruno Seghese**
+
+---

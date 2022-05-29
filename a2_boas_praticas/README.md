@@ -84,3 +84,9 @@ Muito ulilizada com integrações de serviços de terceiros.
 [Get BEM](http://getbem.com/) <br>
 [Storybook](https://storybook.js.org/docs/react/get-started/install) <br>
 [single-spa](https://single-spa.js.org/)
+
+---
+
+> Desenvolvido com ❤️ por **Bruno Seghese**
+
+---

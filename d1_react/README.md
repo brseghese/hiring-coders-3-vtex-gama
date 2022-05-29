@@ -126,3 +126,7 @@ O react-router-dom é uma biblioteca padrão para que você consiga fazer o rote
 <a href="#topo">🔝</a>
 
 ---
+
+> Desenvolvido com ❤️ por **Bruno Seghese**
+
+---

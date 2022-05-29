@@ -31,3 +31,9 @@ HyperText Markup Language — Linguagem de Marcação de Hipertexto
 - [W3schools](https://www.w3schools.com/html/)
 - [Lorem Ipsum](https://www.lipsum.com/)
 - [Ninja Mock](https://ninjamock.com/)
+
+---
+
+> Desenvolvido com ❤️ por **Bruno Seghese**
+
+---

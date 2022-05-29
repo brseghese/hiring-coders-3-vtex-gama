@@ -58,3 +58,9 @@ Frameworks = módulos reutilizáveis com produtividade, segurança e rapidez.
 Ambiente Integrado de Desenvolvimento.
 
 Ferramenta para escrever códigos.
+
+---
+
+> Desenvolvido com ❤️ por **Bruno Seghese**
+
+---

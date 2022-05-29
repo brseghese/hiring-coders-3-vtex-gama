@@ -285,3 +285,9 @@ Serve para:
 ### 🔗​ Linkes Úteis
 
 [Trello](https://trello.com/)
+
+---
+
+> Desenvolvido com ❤️ por **Bruno Seghese**
+
+---

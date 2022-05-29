@@ -94,3 +94,9 @@ A posição atual é comparada com a próxima posição e, se a posição atual 
 ### 🔗​ Linkes Úteis
 
 [Diagram Draw](https://app.diagrams.net/) <br>
+
+---
+
+> Desenvolvido com ❤️ por **Bruno Seghese**
+
+---

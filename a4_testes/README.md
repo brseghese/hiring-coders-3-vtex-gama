@@ -39,3 +39,9 @@ Behavior Driven Development - Desenvolvimento Orientado a Comportamento
 ### Cypress
 
 [Cypress](https://www.cypress.io/)🔗
+
+---
+
+> Desenvolvido com ❤️ por **Bruno Seghese**
+
+---

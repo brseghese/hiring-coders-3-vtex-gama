@@ -293,3 +293,9 @@ São semelhantes a Type Alias e são formas de garantir campos e métodos das cl
 É utilizado para indicar ao compilador do TS que garanta a tipagem que estamos marcando de um tipo específico.
 
 <a href="#topo">🔝</a>
+
+---
+
+> Desenvolvido com ❤️ por **Bruno Seghese**
+
+---
