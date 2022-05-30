@@ -8,8 +8,6 @@
 
 ---
 
-[![image](https://img.shields.io/badge/GraphQl-E10098?style=for-the-badge&logo=graphql&logoColor=white)](https://graphql.org/)
-
 <details>
 <summary>Clique para Navegar 🔽</summary>
 
@@ -19,6 +17,10 @@
 ◽ <a href="#4">Projeto - Dev Demands</a> <br>
 
 </details>
+
+---
+
+[![image](https://img.shields.io/badge/GraphQl-E10098?style=for-the-badge&logo=graphql&logoColor=white)](https://graphql.org/)
 
 <h3 id="0">📍​ O que é GraphQL?</h3>
 

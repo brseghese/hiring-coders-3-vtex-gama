@@ -35,32 +35,32 @@
 
 <p id="p0">✔️ Aquecimento</p>
 
-- [Metodologias Ágeis](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/a1_metodologias_ageis)
-- [Boas Práticas](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/a2_boas_praticas)
-- [Estrutura de Dados](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/a3_estrutura_de_dados)
-- [Testes](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/a4_testes)
-- [HTML](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/a5_html)
-- [CSS](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/a6_css)
+- [Metodologias Ágeis](https://github.com/brseghese/hiring-coders-3-vtex-gama/tree/main/a1_metodologias_ageis)
+- [Boas Práticas](https://github.com/brseghese/hiring-coders-3-vtex-gama/tree/main/a2_boas_praticas)
+- [Estrutura de Dados](https://github.com/brseghese/hiring-coders-3-vtex-gama/tree/main/a3_estrutura_de_dados)
+- [Testes](https://github.com/brseghese/hiring-coders-3-vtex-gama/tree/main/a4_testes)
+- [HTML](https://github.com/brseghese/hiring-coders-3-vtex-gama/tree/main/a5_html)
+- [CSS](https://github.com/brseghese/hiring-coders-3-vtex-gama/tree/main/a6_css)
 
 <p id="p1">✔️ Semana 01</p>
 
-- [Introdução ao Desenvolvimento](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/b1_introducao_desenvolvimento)
-- [Lógica de Programação](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/b2_logica_programacao)
-- [GIT & GitHub](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/b3_git)
+- [Introdução ao Desenvolvimento](https://github.com/brseghese/hiring-coders-3-vtex-gama/tree/main/b1_introducao_desenvolvimento)
+- [Lógica de Programação](https://github.com/brseghese/hiring-coders-3-vtex-gama/tree/main/b2_logica_programacao)
+- [GIT & GitHub](https://github.com/brseghese/hiring-coders-3-vtex-gama/tree/main/b3_git)
 
 <p id="p2">✔️ Semana 02</p>
 
-- [JavaScript](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/c1_javascript)
-- [TypeScript](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/c2_typescript)
+- [JavaScript](https://github.com/brseghese/hiring-coders-3-vtex-gama/tree/main/c1_javascript)
+- [TypeScript](https://github.com/brseghese/hiring-coders-3-vtex-gama/tree/main/c2_typescript)
 
 <p id="p3">✔️ Semana 03</p>
 
-- [React.js](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/d1_react)
-- [GraphQL](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/d2_graphql)
+- [React.js](https://github.com/brseghese/hiring-coders-3-vtex-gama/tree/main/d1_react)
+- [GraphQL](https://github.com/brseghese/hiring-coders-3-vtex-gama/tree/main/d2_graphql)
 
 <p id="p4">✔️ Semana 04</p>
 
-- [Node.js](https://github.com/brseghese/vtex-hiring-coders-3/tree/main/e1_node)
+- [Node.js](https://github.com/brseghese/hiring-coders-3-vtex-gama/tree/main/e1_node)
 
 ---
 
