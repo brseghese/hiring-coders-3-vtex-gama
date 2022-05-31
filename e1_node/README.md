@@ -342,7 +342,31 @@ Seu objetivo **inicial** era dar "vida" às páginas web, tornar o frontend mais
 <details>
 <summary>Hands-on</summary>
 
+#### 🔶 Projeto CRUD por URL
+
+- Criar Usuário
+- Atualizar Usuário
+- Selecionar Usuário
+- Remover Usuário
+
+#### ✔️ Passar os dados por URL
+
+- Pacote `url` (nativo do Node)
+  - Seleciona a string após o parâmetro `?` da URL
+- Pacote `query-string` (NPM install)
+  - Transforma o parâmetro após `?` em objeto
+- Usa-se o `&` para a concatenação de parâmetros
+
+#### ✔️ Manipular arquivos
+
+- Pacote `fs` (NPM install)
+  - [w3schools/fs](https://www.w3schools.com/nodejs/nodejs_filesystem.asp)
+
+> Função Callback, é uma função que é chamada depois que é executada alguma coisa para o Node fazer.
+
 </details>
+
+[MDN JavaScript](https://developer.mozilla.org/pt-BR/docs/web/javascript)
 
 <a href="#topo">🔝</a>
 
