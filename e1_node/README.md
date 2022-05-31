@@ -371,3 +371,5 @@ Seu objetivo **inicial** era dar "vida" às páginas web, tornar o frontend mais
 <a href="#topo">🔝</a>
 
 ---
+
+<h3 id="3">📍​ Noções de TypeScript</h3>

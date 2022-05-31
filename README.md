@@ -10,7 +10,7 @@
 - <a href="#modulos">Módulos</a>
 - <a href="#tecnologias">Tecnologias</a>
 - <a href="#acessar-projeto">Acessar Projeto</a>
-- <a href="#status">Status do Curso</a>
+- <a href="#licenca">Licença</a>
 - <a href="#autor">Autor</a>
 
 </details>
@@ -19,21 +19,30 @@
 
 <h3 id="cronograma">📆 Cronograma</h3>
 
-**Fase 01**
+<details>
+<summary>Fase 01</summary>
+
+####
 
 <ul>
-<li>26/04/2022 a 01/05/2022 - <a href="#p0">Aquecimento</a></li>
-<li>02/05/2022 a 08/05/2022 - <a href="#p1">Semana 01</a></li>
-<li>09/05/2022 a 15/05/2022 - <a href="#p2">Semana 02</a></li>
-<li>16/05/2022 a 22/05/2022 - <a href="#p3">Semana 03</a></li>
-<li>23/05/2022 a 29/05/2022 - <a href="#p4">Semana 04</a></li>
+<li>Aquecimento - 26/04/2022 a 01/05/2022</li>
+<li>Semana 01 - 02/05/2022 a 08/05/2022</li>
+<li>Semana 02 - 09/05/2022 a 15/05/2022</li>
+<li>Semana 03 - 16/05/2022 a 22/05/2022</li>
+<li>Semana 04 - 23/05/2022 a 29/05/2022</li>
+<li>Semana 05 - 30/05/2022 a 05/06/2022</li>
 </ul>
+
+</details>
 
 ---
 
 <h3 id="modulos">🎯​ Módulos</h3>
 
-<p id="p0">✔️ Aquecimento</p>
+<details>
+<summary>Aquecimento</summary>
+
+####
 
 - [Metodologias Ágeis](https://github.com/brseghese/hiring-coders-3-vtex-gama/tree/main/a1_metodologias_ageis)
 - [Boas Práticas](https://github.com/brseghese/hiring-coders-3-vtex-gama/tree/main/a2_boas_praticas)
@@ -42,29 +51,58 @@
 - [HTML](https://github.com/brseghese/hiring-coders-3-vtex-gama/tree/main/a5_html)
 - [CSS](https://github.com/brseghese/hiring-coders-3-vtex-gama/tree/main/a6_css)
 
-<p id="p1">✔️ Semana 01</p>
+</details>
+
+<details>
+<summary>Semana 01</summary>
+
+####
 
 - [Introdução ao Desenvolvimento](https://github.com/brseghese/hiring-coders-3-vtex-gama/tree/main/b1_introducao_desenvolvimento)
 - [Lógica de Programação](https://github.com/brseghese/hiring-coders-3-vtex-gama/tree/main/b2_logica_programacao)
 - [GIT & GitHub](https://github.com/brseghese/hiring-coders-3-vtex-gama/tree/main/b3_git)
 
-<p id="p2">✔️ Semana 02</p>
+</details>
+
+<details>
+<summary>Semana 02</summary>
+
+####
 
 - [JavaScript](https://github.com/brseghese/hiring-coders-3-vtex-gama/tree/main/c1_javascript)
 - [TypeScript](https://github.com/brseghese/hiring-coders-3-vtex-gama/tree/main/c2_typescript)
 
-<p id="p3">✔️ Semana 03</p>
+</details>
+
+<details>
+<summary>Semana 03</summary>
+
+####
 
 - [React.js](https://github.com/brseghese/hiring-coders-3-vtex-gama/tree/main/d1_react)
 - [GraphQL](https://github.com/brseghese/hiring-coders-3-vtex-gama/tree/main/d2_graphql)
 
-<p id="p4">✔️ Semana 04</p>
+</details>
+
+<details>
+<summary>Semana 04</summary>
+
+####
 
 - [Node.js](https://github.com/brseghese/hiring-coders-3-vtex-gama/tree/main/e1_node)
 
+</details>
+
+<!-- <details>
+<summary></summary>
+
+####
+
+</details> -->
+
 ---
 
-<h3 id="tecnologias">⚙️ Tecnologias Utilizadas</h3>
+<h3 id="tecnologias">🛠️ Tecnologias</h3>
 
 <div style="display: inline_block">
   <img align="center" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
@@ -80,11 +118,11 @@
 
 </div>
 
-<h3 id="acessar-projeto">📁 Acessar Projeto</h3>
+<h3 id="acessar-projeto">👷‍♂️​ Acessar o Projeto</h3>
 
-- <a href="https://github.com/brseghese/hiring-coders-3-vtex-gama">Acessar</a>🔗 o código fonte pelo GitHub
-- <a href="https://github.com/brseghese/hiring-coders-3-vtex-gama/archive/refs/heads/main.zip">Download</a>🔗 do código fonte no formato zip
-- Clone o repositório 🔽
+Acesse<a href="https://github.com/brseghese/hiring-coders-3-vtex-gama"> aqui</a>🔗 o código fonte pelo GitHub.<br>
+Faça o download<a href="https://github.com/brseghese/hiring-coders-3-vtex-gama/archive/refs/heads/main.zip"> aqui</a>🔗 do código fonte no formato zip.<br>
+Clone o repositório:
 
 ```bash
 git clone https://github.com/brseghese/hiring-coders-3-vtex-gama.git
@@ -92,15 +130,15 @@ git clone https://github.com/brseghese/hiring-coders-3-vtex-gama.git
 
 ---
 
-<h3 id="status">📌 Status do Curso</h3>
+<h3 id="licenca">📝 Licença</h3>
 
-Cursando... 👓
+Esse projeto é licenciado pela MIT License. Veja [aqui](https://pt.wikipedia.org/wiki/Licen%C3%A7a_MIT) mais detalhes.
 
 ---
 
-### 📝 License
+#### 💬 Sinta-se a vontade para entrar em contato
 
-Esse projeto é licenciado pela MIT License. Veja [aqui](https://pt.wikipedia.org/wiki/Licen%C3%A7a_MIT) mais detalhes.
+[![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/brunoseghese/) [![Github Badge](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/brseghese) [![Gmail Badge](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:brseghese@gmail.com)
 
 ---
 
@@ -109,12 +147,6 @@ Esse projeto é licenciado pela MIT License. Veja [aqui](https://pt.wikipedia.or
 <a href="https://github.com/brseghese"> <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/80193824?v=4" width="100px;" alt="Personal photo"/> </a>
 
 [Clique aqui](https://brseghese.github.io)🔗 e acesse meu portfólio! 💼 (em construção...)
-
----
-
-#### 💬 Sinta-se a vontade para entrar em contato
-
-[![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/brunoseghese/) [![Github Badge](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/brseghese) [![Gmail Badge](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:brseghese@gmail.com)
 
 ---
 
