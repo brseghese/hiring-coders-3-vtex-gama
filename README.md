@@ -93,6 +93,15 @@
 
 </details>
 
+<details>
+<summary>Semana 05</summary>
+
+####
+
+- [Node.js - HTTP GET & HTTP POST](https://github.com/brseghese/hiring-coders-3-vtex-gama/tree/main/f1_node_http)
+
+</details>
+
 <!-- <details>
 <summary></summary>
 

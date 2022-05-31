@@ -442,7 +442,7 @@ npm i query-string
 node dist/index.js
 ```
 
-#### 🔶 Documentação
+</details>
 
 [TypeScript](https://www.typescriptlang.org/)
 
