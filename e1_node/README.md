@@ -11,6 +11,8 @@
 <details>
 <summary>Clique para Navegar 🔽</summary>
 
+####
+
 - <a href="#0">O que é Node.js?</a>
 - <a href="#1">O que é NPM?</a>
 - <a href="#2">Noções de JavaScript</a>
@@ -218,7 +220,9 @@ NPM é o gerenciador de pacotes do Node permitindo a busca, instalação, gerenc
 <details>
 <summary>Para que serve um pacote?</summary>
 
-#### 🔶 Um pacote / módulo permite o compartilhar de funcionalidades implementadas entre diferentes projetos, pessoas e empresas.
+#### 🔶 Pacote / Módulo
+
+Permite o compartilhar de funcionalidades implementadas entre diferentes projetos, pessoas e empresas.
 
 </details>
 
@@ -237,17 +241,86 @@ NPM é o gerenciador de pacotes do Node permitindo a busca, instalação, gerenc
 </details>
 
 <details>
-<summary>Como funciona o NPM?</summary>
+<summary>Componentes do NPM</summary>
 
 #### 🔶 Principais componentes:
 
-- website
-- cli
-- registry
+✔️ Website
+
+- Endereço: [www.npmjs.com](https://www.npmjs.com/)
+- Utilidades:
+  - Documentação de apoio
+  - Busca de pacotes
+
+✔️ CLI
+
+- Nome: Command line interface
+- Utilidades:
+  - Instalar pacotes
+  - Desinstalar pacotes
+  - Atualizar pacotes
+  - [E muito mais](https://docs.npmjs.com/cli/v7/commands)
+
+✔️ Registry
+
+- Endereço: [docs.npmjs.com](https://docs.npmjs.com/)
+- Utilidades:
+  - Armazenar todos os pacotes disponíveis no NPM
+  - Acesso: através do NPM CLI
 
 </details>
 
 <details>
-<summary></summary>
+<summary>Como o NPM funciona?</summary>
+
+#### 🔶 Passo a passo:
+
+- Pesquise no site do NPM o pacote desejado
+- Inclua o nome do pacote no seu arquivo `package.json`
+- Instale o pacote:
+
+```
+npm install
+```
 
 </details>
+
+<details>
+<summary>Colocando em Prática o NPM</summary>
+
+#### 🔶 Novo Projeto
+
+Normalmente quando começamos um novo projeto Node, configuramos o npm. Porque além de trazer pacotes, ele também permite criarmos os nossos pacotes para publicar.
+
+#### 🔶 Novo Pacote
+
+✔️ Na pasta do projeto, para criar um novo pacote digite:
+
+```
+npm init
+```
+
+✔️ Criando um novo pacote são feitas as perguntas:
+
+- Nome do pacote
+- A versão
+- A descrição
+- Entry Point (arquivo principal)
+- Comando de teste
+- Repositório Git
+- Keywords (palavras chaves)
+- autor
+- licença
+
+✔️ Dentro do projeto é criado um arquivo "package.json", que é o arquivo onde o NPM armazena os pacotes que ele instala dentro do projeto.
+
+</details>
+
+<a href="#topo">🔝</a>
+
+---
+
+<!-- <details>
+<summary></summary>
+
+</details> -->
