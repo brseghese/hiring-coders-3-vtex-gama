@@ -373,3 +373,83 @@ Seu objetivo **inicial** era dar "vida" às páginas web, tornar o frontend mais
 ---
 
 <h3 id="3">📍​ Noções de TypeScript</h3>
+
+<details>
+<summary>Hands-on</summary>
+
+#### 🔶 Projeto
+
+- Criar Usuário
+- Atualizar Usuário
+- Selecionar Usuário - desafio
+- Remover Usuário - desafio
+
+#### 🔶 Instalando e Configurando o TypeScript
+
+#### ✔️ Inicializar um pacote npm:
+
+```
+npm init
+```
+
+#### ✔️ Instalar o módulo TypeScript
+
+```
+npm i typescript
+```
+
+#### ✔️ Iniciar o gerenciador TypeScript
+
+```
+npx tsc --init
+```
+
+Criar uma pasta "dist" na pasta do projeto.
+
+O arquivo "tsconfig.json" é criado. Ele é o arquivo de configuração do TypeScript.
+
+#### ✔️ Configurar o "tsconfig.json" ativando 2 propriedades
+
+```
+"rootDir": "./"
+
+"outDir": "./dist/"
+```
+
+#### ✔️ Iniciar a Compilação em tempo real
+
+```
+npx tsc --watch
+```
+
+Parar a compilação - ctrl + enter
+
+#### ✔️ Instalando complemento dos módulos padrões do Node
+
+```
+npm install @types/node
+```
+
+#### ✔️ Instalando o pacote Query String que não é padrão
+
+```
+npm i query-string
+```
+
+#### ✔️ Executando o Servidor
+
+```
+node dist/index.js
+```
+
+#### 🔶 Documentação
+
+[TypeScript](https://www.typescriptlang.org/)
+
+<a href="#topo">🔝</a>
+
+---
+
+> Desenvolvido com ❤️ por **Bruno Seghese**
+
+---
