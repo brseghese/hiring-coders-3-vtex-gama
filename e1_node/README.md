@@ -218,7 +218,7 @@ NPM é o gerenciador de pacotes do Node permitindo a busca, instalação, gerenc
 </details>
 
 <details>
-<summary>Para que serve um pacote?</summary>
+<summary>O que é um Pacote / Módulo?</summary>
 
 #### 🔶 Pacote / Módulo
 
@@ -320,7 +320,30 @@ npm init
 
 ---
 
-<!-- <details>
-<summary></summary>
+<h3 id="2">📍​ Noções de JavaScript</h3>
 
-</details> -->
+JavaScript é uma linguagem de programação que permite o desenvolvimento de programas frontend, ela é carregada quando uma página web é acessada e o navegador é o responsável pela sua execução.
+
+Seu objetivo **inicial** era dar "vida" às páginas web, tornar o frontend mais "inteligente" e diminuir as interações com o backend / servidor.
+
+<details>
+<summary>História do JavaScript</summary>
+
+####
+
+- Criação: 1995 (LiveScript)
+- Autor: Netscape
+- Evolução:
+  - Firefox (2004)
+  - Chrome (2008)
+
+</details>
+
+<details>
+<summary>Hands-on</summary>
+
+</details>
+
+<a href="#topo">🔝</a>
+
+---
