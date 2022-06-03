@@ -10,8 +10,10 @@
 
 [![image](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/en/)
 
+<h2 id="3"> Sistema de Agendamento 📖​ </h3>
+
 <details>
-<summary>Tópicos | Conteúdos  | Recursos</summary>
+<summary>Conteúdos e Recursos do Projeto</summary>
 
 ####
 
@@ -40,23 +42,29 @@
 
 </details>
 
+[Clique aqui](https://github.com/brseghese/hc3-sistema-agenda)🔗 para acessar o repositório do projeto. 🚀
+
 ---
 
-<h3 id="0">📍 Conceitos de REST e SOAP </h3>
+<h3 id="0">📍 Conceitos</h3>
+
+<details>
+<summary>REST</summary>
+
+####
 
 REST (Representational State Transfer) é um protocolo de comunicação, baseado no protocolo de hipermídia HTTP. Porém ele não impõe restrições ao formato da mensagem, apenas no comportamento dos componentes envolvidos. A maior vantagem do protocolo REST é sua flexibilidade.
 
+</details>
+
+<details>
+<summary>SOAP</summary>
+
+####
+
 SOAP (Simple Object Access Protocol) é um protocolo baseado em XML para troca de informações em um ambiente distribuido. É utilizado para troca de mensagens entre aplicativos distribuidos pela rede. Estes aplicativos, ou “Web services”, possuem uma interface de acesso simples e bem definida.
 
----
-
-<h3 id="3"> Sistema de Agendamento 📖​ </h3>
-
-#### Cadastro e autenticação de Usuários.
-
-#### Cadastro e listagem de Agendamentos.
-
-[Clique aqui](https://github.com/brseghese/hc3-sistema-agenda)🔗 para acessar o repositório do projeto. 🚀
+</details>
 
 ---
 
@@ -222,7 +230,7 @@ O Docker é uma plataforma open source que facilita a criação e administraçã
 
 [Get Started Docker](https://www.docker.com/)
 
-#### ✔️ Verifique o a versão do Docker
+#### ✔️ Verifique a versão do Docker
 
 ```
 docker -v
@@ -232,21 +240,23 @@ docker -v
 
 O PostgreSQL suporta nativamente um grande número de tipos de dados padrão, como JSON, XML, etc. O PostgreSQL obtém vantagem disso, pois é um dos poucos bancos de dados relacionais que oferece forte suporte para a funcionalidade NoSQL. Além disso, permite que os usuários definam seus próprios tipos de dados.
 
-#### ✔️ Instale o Postgre
+#### ✔️ Instale o PostgreSQL
 
 ```
 docker run --name database -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres
 ```
 
-#### ✔️ Verifique as imagens instaladas no docker
+#### ✔️ Verifique as imagens instaladas no Docker
 
 ```
 docker image ls
 ```
 
-No app Docker em images postgres clicar em "run"
+#### 🔶 Docker Desktop - em images PostgreSQL
 
-#### ✔️ Teste o Postgres
+#### ✔️ Clicar em "run"
+
+#### ✔️ Teste o PostgreSQL
 
 ```
 docker ps
@@ -255,7 +265,7 @@ docker ps
 </details>
 
 <details>
-<summary>Instalando ORM Sequelize</summary>
+<summary>Instalando ORM Sequelize e Postbird</summary>
 
 #### 🔶 ORM
 
@@ -283,9 +293,17 @@ npm install --save-dev sequelize-cli
 npm i pg pg-hstore
 ```
 
-#### ✔️ Crie o arquivo ".sequelizerc na pasta raiz
+#### ✔️ ".sequelizerc"
 
-Após implementar "config/database.js" e ".sequelizerc"
+- Configurando o caminho.
+
+#### ✔️ "database.js"
+
+- Configurando o banco de dados.
+
+#### 🔶 Migrations
+
+São classes que executam promises capazes de gerar nossa estrutura na base de dados, ele irá gerar as tabelas, relacionamentos e campos por etapas, para cada nova tabela teremos uma nova migration, não precisa se preocupar o migrate sabe identificar qual foi a última executada.
 
 #### ✔️ Create Migration
 
@@ -293,9 +311,35 @@ Após implementar "config/database.js" e ".sequelizerc"
 npx sequelize migration:create --name=create-users
 ```
 
-#### 🔶 Migration
+#### ✔️ Implemente a tabela "users" no Migration "create-users.js"
 
-É uma forma de versionar o schema de sua aplicação. Migrations trabalha na manipulação da base de dados: criando, alterando ou removendo. Uma forma de controlar as alterações do seu banco juntamente com o versionamento de sua aplicação e compartilhar-la.
+#### 🔶 Postbird
+
+Postbird é um cliente PostgreSQL GUI de plataforma cruzada. Suporta visualizações, visualizações de materiais, tabelas estrangeiras, restrições, esquemas, conexão com postgres do heroku.
+
+#### ✔️ Instale o Postbird
+
+#### ✔️ Crie uma nova conexão
+
+- Use as configurações do "database.js"
+
+#### ✔️ Crie um database no Postbird
+
+- Nomei de "sistema"
+
+#### ✔️ Crie a tabela com o Sequelize Migrate
+
+```
+npx sequelize db:migrate
+```
+
+#### How back migration
+
+- Caso precise alterar, tudo é apagado, sem volta!
+
+```
+npx sequelize db:migrate:undo
+```
 
 </details>
 
