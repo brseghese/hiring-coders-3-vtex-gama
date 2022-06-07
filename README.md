@@ -31,6 +31,7 @@
 <li>Semana 03 - 16/05/2022 a 22/05/2022</li>
 <li>Semana 04 - 23/05/2022 a 29/05/2022</li>
 <li>Semana 05 - 30/05/2022 a 05/06/2022</li>
+<li>Semana 06 - 06/06/2022 a 12/06/2022</li>
 </ul>
 
 </details>
@@ -49,7 +50,9 @@
 - [Estrutura de Dados](https://github.com/brseghese/hiring-coders-3-vtex-gama/tree/main/a3_estrutura_de_dados)
 - [Testes](https://github.com/brseghese/hiring-coders-3-vtex-gama/tree/main/a4_testes)
 - [HTML](https://github.com/brseghese/hiring-coders-3-vtex-gama/tree/main/a5_html)
-- [CSS](https://github.com/brseghese/hiring-coders-3-vtex-gama/tree/main/a6_css)
+  - [Minha Lojinha Virtual](https://heringcoders3-html.netlify.app/)
+- [CSS](https://github.com/brseghese/hiring-coders-3-vtex-gama/tree/main/a6_css)<br>
+  - [Meu Portfólio](https://hiringcoders3-css.netlify.app/)
 
 </details>
 
@@ -70,6 +73,7 @@
 ####
 
 - [JavaScript](https://github.com/brseghese/hiring-coders-3-vtex-gama/tree/main/c1_javascript)
+  - [Validador de CPF](https://hc3-validador-cpf.netlify.app/)
 - [TypeScript](https://github.com/brseghese/hiring-coders-3-vtex-gama/tree/main/c2_typescript)
 
 </details>
@@ -79,8 +83,10 @@
 
 ####
 
-- [React.js](https://github.com/brseghese/hiring-coders-3-vtex-gama/tree/main/d1_react)
-- [GraphQL](https://github.com/brseghese/hiring-coders-3-vtex-gama/tree/main/d2_graphql)
+- [React.js](https://github.com/brseghese/hiring-coders-3-vtex-gama/tree/main/d1_react)<br>
+  - [Search GitHub User](https://hc3-search-rep-github.netlify.app/)
+- [GraphQL](https://github.com/brseghese/hiring-coders-3-vtex-gama/tree/main/d2_graphql)<br>
+  - [Dev Demands](https://github.com/brseghese/hc3-dev-demands)
 
 </details>
 
@@ -89,7 +95,8 @@
 
 ####
 
-- [Node.js](https://github.com/brseghese/hiring-coders-3-vtex-gama/tree/main/e1_node)
+- [Introdução ao Node.js](https://github.com/brseghese/hiring-coders-3-vtex-gama/tree/main/e1_node)<br>
+  - [CRUD por URL](hiring-coders-3-vtex-gama/e1_node/b_hands_on_js/)
 
 </details>
 
@@ -98,16 +105,19 @@
 
 ####
 
-- [Node.js - HTTP GET & HTTP POST](https://github.com/brseghese/hiring-coders-3-vtex-gama/tree/main/f1_node_http)
+- [Node.js - HTTP GET & HTTP POST](https://github.com/brseghese/hiring-coders-3-vtex-gama/tree/main/f1_node_http)<br>
+  - [Sistema de Agendamento](https://github.com/brseghese/hc3-sistema-agenda)
 
 </details>
 
-<!-- <details>
-<summary></summary>
+<details>
+<summary>Semana 06</summary>
 
 ####
 
-</details> -->
+- [Node.js - Criando uma REST API](https://github.com/brseghese/hiring-coders-3-vtex-gama/tree/main/g1_node_rest_api)
+
+</details>
 
 ---
 
@@ -122,6 +132,9 @@
   <img align="center" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg">
   <img align="center" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg"> 
   <img align="center" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg">
+   <img align="center" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg">
+  <img align="center" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg">
+  <img align="center" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg">
 
 ---
 
