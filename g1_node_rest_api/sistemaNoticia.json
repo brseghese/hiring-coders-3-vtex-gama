@@ -5,7 +5,7 @@
     "version": "1.0.0",
     "title": "News API",
     "contact": {
-      "email": "apiteam@sistemanoticias.com.br"
+      "email": "brseghese@gmail.com"
     },
     "license": {
       "name": "Apache 2.0",
@@ -20,21 +20,15 @@
       "description": "Notícias para todos os gostos."
     }
   ],
-  "schemes": [
-    "https"
-  ],
+  "schemes": ["https"],
   "paths": {
     "/categorias": {
       "get": {
-        "tags": [
-          "noticias"
-        ],
+        "tags": ["noticias"],
         "summary": "Busca coleção de categorias",
         "description": "Busca todas as categorias da base de dados.",
         "operationId": "buscaCategorias",
-        "produces": [
-          "application/json"
-        ],
+        "produces": ["application/json"],
         "responses": {
           "200": {
             "description": "Categorias retornadas com sucesso.",
@@ -53,15 +47,11 @@
     },
     "/categorias/{categoriaId}/noticias/{noticiaId}": {
       "get": {
-        "tags": [
-          "noticias"
-        ],
+        "tags": ["noticias"],
         "summary": "Busca notícia por ID",
         "description": "Busca notícia por ID de acordo com sua categoria.",
         "operationId": "buscaNoticia",
-        "produces": [
-          "application/json"
-        ],
+        "produces": ["application/json"],
         "parameters": [
           {
             "name": "categoriaId",
