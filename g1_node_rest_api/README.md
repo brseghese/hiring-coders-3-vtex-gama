@@ -357,6 +357,8 @@ Exemplos:
 
 <summary>Conceito e Definição</summary>
 
+####
+
 O Swagger é, basicamente, um conjunto de ferramentas que nos ajuda a fazer o design, ou seja, fazer a modelagem, a documentar e até gerar código para desenvolvimento de APIs.
 
 - [Swagger Editor](https://editor.swagger.io/)
@@ -375,6 +377,8 @@ O Swagger é, basicamente, um conjunto de ferramentas que nos ajuda a fazer o de
 
 <summary>Conceito e Definição</summary>
 
+####
+
 O Postman é um aplicativo com a função de testar e desenvolver APIs em uma interface bastante simples e intuitiva. Ele nos permite simular requisições HTTP de forma rápida, armazenando-as para que possamos usá-las posteriormente.
 
 Além disso, para cada requisição feita, o Postman analisa as respostas enviadas pela API e as exibe visualmente de forma muito agradável e fácil de entender, o que reduz consideravelmente o tempo necessário para o desenvolvimento e testes de sua aplicação.
@@ -388,6 +392,8 @@ Além disso, para cada requisição feita, o Postman analisa as respostas enviad
 <details>
 
 <summary>Conceito e Definição</summary>
+
+####
 
 O Express é um framework para aplicativo da web do Node.js mínimo e flexível que fornece um conjunto robusto de recursos para aplicativos web e móvel.
 
