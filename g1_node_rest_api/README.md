@@ -1,10 +1,12 @@
-<h1 id="topo">Node.js <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg" width="30px"/> Criando uma REST API</h1>
+<h1 id="topo">Criando uma REST API - Node.js <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg" width="30px"/></h1>
 
 🔙 [Voltar Página Inicial](https://github.com/brseghese/hiring-coders-3-vtex-gama)
 
 <h3> 📚 Material de Apoio</h3>
 
 - [PDF](https://drive.google.com/file/d/1wuiyTk3gXT4LApRJJqFxRPkZy4YhXuwe/view)
+
+[![image](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/en/)
 
 ---
 
@@ -21,8 +23,6 @@
 </details>
 
 ---
-
-[![image](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/en/)
 
 <h3 id="0"> 🔶​ RESTful API</h3>
 
@@ -421,6 +421,56 @@ O Framework é um pacote de códigos prontos que podem ser utilizados no desenvo
 #### 🔷 Case
 
 Sistema de postagem e leitura de notícias, onde o jornalista posta as notícias em um painel administrativo marcando quais são sua categorias (esportes, notícias, etc.). O leitor por sua vez acessa o site / portal de notícias, seleciona uma categoria e lê as notícias que deseja.
+
+</details>
+
+<details>
+
+<summary>Preparando o ambiente</summary>
+
+####
+
+#### 🔷 Instale as Tecnologias
+
+- MySQL
+- MySQL Workbench
+- Postman
+- Node.js
+
+#### 🔷 Instale os pacotes no Node.js
+
+#### ✔️ Express
+
+```
+npm install express --save
+```
+
+#### ✔️ MySQL
+
+```
+npm install mysql2
+```
+
+#### ✔️ Conecte MySQL
+
+- [Guide](https://expressjs.com/en/guide/database-integration.html#mysql)
+
+</details>
+
+<details>
+
+<summary>Desenvolvimento</summary>
+
+#### ✔️ Banco de Dados
+
+- nome: sistema_noticias
+- talelas: categoria e noticia
+
+#### ✔️ Express - Endpoints:
+
+- lista todas as categorias
+- lista todas as notícias por categoria
+- lista uma notícia por categoria e id
 
 </details>
 
