@@ -430,12 +430,11 @@ Sistema de postagem e leitura de notícias, onde o jornalista posta as notícias
 
 ####
 
-#### 🔷 Instale as Tecnologias
+#### 🔷 Tecnologias
 
 - MySQL
 - MySQL Workbench
 - Postman
-- Node.js
 
 #### 🔷 Instale os pacotes no Node.js
 
