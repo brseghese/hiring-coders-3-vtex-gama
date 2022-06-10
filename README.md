@@ -95,8 +95,8 @@
 
 ####
 
-- [Introdução ao Node.js](https://github.com/brseghese/hiring-coders-3-vtex-gama/tree/main/e1_node)<br>
-  - [CRUD por URL](https://github.com/brseghese/hiring-coders-3-vtex-gama/tree/main/e1_node/b_hands_on_js)
+- [Introdução ao Node.js](https://github.com/brseghese/hiring-coders-3-vtex-gama/tree/main/e1_node) ||
+  [CRUD por URL](https://github.com/brseghese/hiring-coders-3-vtex-gama/tree/main/e1_node/b_hands_on_js)
 
 </details>
 
