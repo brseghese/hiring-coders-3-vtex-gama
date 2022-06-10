@@ -49,10 +49,10 @@
 - [Boas Práticas](https://github.com/brseghese/hiring-coders-3-vtex-gama/tree/main/a2_boas_praticas)
 - [Estrutura de Dados](https://github.com/brseghese/hiring-coders-3-vtex-gama/tree/main/a3_estrutura_de_dados)
 - [Testes](https://github.com/brseghese/hiring-coders-3-vtex-gama/tree/main/a4_testes)
-- [HTML](https://github.com/brseghese/hiring-coders-3-vtex-gama/tree/main/a5_html)
-  - [Minha Lojinha Virtual](https://heringcoders3-html.netlify.app/)
-- [CSS](https://github.com/brseghese/hiring-coders-3-vtex-gama/tree/main/a6_css)<br>
-  - [Meu Portfólio](https://hiringcoders3-css.netlify.app/)
+- [HTML](https://github.com/brseghese/hiring-coders-3-vtex-gama/tree/main/a5_html) ||
+  [Minha Lojinha Virtual](https://heringcoders3-html.netlify.app/)
+- [CSS](https://github.com/brseghese/hiring-coders-3-vtex-gama/tree/main/a6_css) ||
+  [Meu Portfólio](https://hiringcoders3-css.netlify.app/)
 
 </details>
 
@@ -72,8 +72,8 @@
 
 ####
 
-- [JavaScript](https://github.com/brseghese/hiring-coders-3-vtex-gama/tree/main/c1_javascript)
-  - [Validador de CPF](https://hc3-validador-cpf.netlify.app/)
+- [JavaScript](https://github.com/brseghese/hiring-coders-3-vtex-gama/tree/main/c1_javascript) ||
+  [Validador de CPF](https://hc3-validador-cpf.netlify.app/)
 - [TypeScript](https://github.com/brseghese/hiring-coders-3-vtex-gama/tree/main/c2_typescript)
 
 </details>
@@ -83,10 +83,10 @@
 
 ####
 
-- [React.js](https://github.com/brseghese/hiring-coders-3-vtex-gama/tree/main/d1_react)<br>
-  - [Search GitHub User](https://hc3-search-rep-github.netlify.app/)
-- [GraphQL](https://github.com/brseghese/hiring-coders-3-vtex-gama/tree/main/d2_graphql)<br>
-  - [Dev Demands](https://github.com/brseghese/hc3-dev-demands)
+- [React.js](https://github.com/brseghese/hiring-coders-3-vtex-gama/tree/main/d1_react) ||
+  [Search GitHub User](https://hc3-search-rep-github.netlify.app/)
+- [GraphQL](https://github.com/brseghese/hiring-coders-3-vtex-gama/tree/main/d2_graphql) ||
+  [Dev Demands](https://github.com/brseghese/hc3-dev-demands)
 
 </details>
 
@@ -105,8 +105,8 @@
 
 ####
 
-- [Node.js - HTTP GET & HTTP POST](https://github.com/brseghese/hiring-coders-3-vtex-gama/tree/main/f1_node_http)<br>
-  - [Sistema de Agendamento](https://github.com/brseghese/hc3-sistema-agenda)
+- [Node.js - HTTP GET & HTTP POST](https://github.com/brseghese/hiring-coders-3-vtex-gama/tree/main/f1_node_http) ||
+  [Sistema de Agendamento](https://github.com/brseghese/hc3-sistema-agenda)
 
 </details>
 
@@ -116,6 +116,7 @@
 ####
 
 - [Node.js - Criando uma REST API](https://github.com/brseghese/hiring-coders-3-vtex-gama/tree/main/g1_node_rest_api)
+- [Consumo de API terceiras](https://github.com/brseghese/hiring-coders-3-vtex-gama/tree/main/g2_consumo_api_terceiras)
 
 </details>
 
@@ -135,6 +136,8 @@
    <img align="center" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg">
   <img align="center" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg">
   <img align="center" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg">
+  <img align="center" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg">
+  <img align="center" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg">
 
 ---
 
