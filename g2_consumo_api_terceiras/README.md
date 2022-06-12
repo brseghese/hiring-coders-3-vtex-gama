@@ -66,14 +66,30 @@ npm install node-fetch
 
 </details>
 
+### 🔶​ Consumo de API terceira usando Axios
+
+<details>
+
+<summary>Conceitos e Denfinições</summary>
+
+#### 🔶 Axios
+
+É uma biblioteca HTTP baseada em promises, ela é de terceiro (diferente do Node-Fetch) e possui recursos mais avançados, como proteção XSRF, transformação automática de dados JSON, cancelamento de requesições, interceptação, entre outras coisas.
+
+[Documentação](https://www.npmjs.com/package/axios)
+
+</details>
+
+<details>
+
+<summary>Hands On</summary>
+
+Intregração com Pagar.me.
+
+</details>
+
 ---
 
 > Desenvolvido com ❤️ por **Bruno Seghese**
 
 ---
-
-<!-- <details>
-
-<summary></summary>
-
-</details> -->
